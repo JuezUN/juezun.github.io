@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnCode</title>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--google foun-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--Ionicon-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="icon" href="img/LogoUN.png" type="image/png" />
+    <!--Style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#"><img src="img/LogoUN.png" class="logo-brand">Code</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/JuezUN">Github
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://uncode.unal.edu.co/courselist">
+                            Cursos
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/JuezUN/INGInious/wiki">Documentación
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Title-->
+    <section class="py-6 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 main-title">
+                    <h1 class="mb-3 font-weight-bold"> Un entorno para el aprendizaje y evaluación automática de
+                        ejercicios de
+                        programación</h1>
+                    <p>Desarrollado por el grupo de investigación <a class="link-anm"
+                            href="http://plas.unal.edu.co/">PLaS</a> de la <a class="link-anm"
+                            href="https://unal.edu.co/">Universidad
+                            Nacional de Colombia</a> </p>
+                </div>
+                <div class="col-md-6 text-center mx-auto">
+                    <a href="https://uncode.unal.edu.co/signin" class="btn btn-dark mr-2 mb-4">Ingresar</a>
+                    <a href="https://uncode.unal.edu.co/register"
+                        class="btn btn-outline-light mr-2 n mb-4">Registrarse</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="py-6">
+        <div class="container">
+            <div class="row py-3">
+                <!--C-Multilingualism-->
+                <div class="col-md-6">
+                    <h2>Multiples lenguajes</h2>
+                    <p>UNCode puede evaluar código fuente escrito en Java, C/C++ o Python</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/losgosLenguage.png" class="img-fluid">
+
+                </div>
+            </div>
+            <!--C-rating system-->
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <h2>Sistema de calificación automática</h2>
+                    <p>UNCode posee un sistema de calificación automática basada en <a
+                            href="https://inginious.org/">INGInious</a> por tanto es flexible,
+                        seguro, escalable y seguro. Adicionalmente, como juez está diseñado para ser aplicado a entornos
+                        de aprendizaje en lugar de concursos de programación competitiva.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/losgosLenguage.png" class="img-fluid">
+                </div>
+            </div>
+            <!--Students' tools-->
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <h2>Herramientas para los estudiantes</h2>
+                    <p>UNCode apoya el proceso de aprendizaje de los estudiantes mediante la retroalimentación
+                        automática y formativa de varios aspectos de la programación, donde destaca la sintaxis,
+                        semántica, mantenimiento de código y realización de pruebas. Para esto cuenta con un "<a
+                            href="https://en.wikipedia.org/wiki/Lint_(software)">linter</a>"
+                        para hacer recomendaciones de buenas prácticas, visualizador de código en ejecución, entorno de
+                        pruebas de entrada y salida personalizables, y plantillas de código para tareas de programación.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/losgosLenguage.png" class="img-fluid">
+
+                </div>
+            </div>
+            <!--Teachers' tools-->
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <h2>Herramientas para los profesores</h2>
+                    <p>UNCode cuenta con un asistente de calificación, banco de problemas de programación, un modulo de
+                        evaluación manual, generador de reportes anti plagio y visualizador de espacio de soluciones en
+                        forma de grafo, las cuales apoyan la labor de docencia.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/losgosLenguage.png" class="img-fluid">
+                </div>
+            </div>
+            <!--monitoring tools-->
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <h2>Herramientas de monitoreo</h2>
+                    <p>UNCode cuenta con un modulo generador de reportes estadísticos interactivos para estudiantes y
+                        profesores.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/losgosLenguage.png" class="img-fluid">
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <!-- Bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
