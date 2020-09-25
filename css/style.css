@@ -18,7 +18,6 @@ body {
 .navbar {
     background-color: var(--grey);
     min-height: 5rem;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .logo-brand {
@@ -123,6 +122,12 @@ body {
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     transition-delay: 0s;
+}
+.link-dark a{
+    color: rgba(0, 0, 0, 0.5);
+}
+.link-dark a:hover{
+    color: rgba(0, 0, 0, 0.7);
 }
 
 /*titles*/
