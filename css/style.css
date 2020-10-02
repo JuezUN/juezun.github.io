@@ -13,6 +13,7 @@ body {
     font-size: 1rem;
     font-weight: 300;
     background-color: var(--grey);
+    height: 100%;
 }
 /*NavBar*/
 .navbar {
@@ -141,10 +142,14 @@ body {
 
 /*content*/
 .content{
-    height: 100vh;
+    min-height: 100vh;
     padding-bottom: 5rem;
 }
 .text-content p {
     box-sizing: border-box;
     max-width: 51rem;
+}
+.title-content h2{
+    box-sizing: border-box;
+    max-width: 65rem;
 }
