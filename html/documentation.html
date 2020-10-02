@@ -17,6 +17,9 @@
     <link rel="icon" href="../img/LogoUN.png" type="image/png" />
     <!--Style-->
     <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <script src="../js/documentation.js" type="module"></script>
 </head>
 
 <body>
@@ -69,12 +72,12 @@
     <!--subnav-->
     <section class="bg-light border-bottom">
         <div class="container link-dark">
-            <ul class="nav justify-content-end">
+            <ul class="nav justify-content-end" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Presentaciones</a>
+                    <a class="nav-link" href="#" id="videos">Videos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Videos</a>
+                    <a class="nav-link" href="#" id="presentacion">Presentaciones</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/JuezUN/INGInious/wiki">Wiki
@@ -88,20 +91,120 @@
             </ul>
         </div>
     </section>
-    <!--content-->
+    <!--content-pdf-->
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <div class="py-4">
-                        <iframe width="800" height="555" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+            <div id="pdf" class="collapse">
+                <div class="row">
+                    <div class="col-md-9 mx-auto">
+                        <div class="py-3">
+                            <iframe src="../resources/UNCode - generalidades.pdf" frameborder="0" class="docCollapse2 collapse show"
+                                id="generalities-pdf"></iframe>
+                        </div>
+                        <div class="py-3">
+                            <iframe src="../resources/UNCode - guía de uso(1).pdf" frameborder="0"
+                                class="docCollapse2 collapse" id="guide-1-pdf"></iframe>
+                        </div>
+                        <div class="py-3">
+                            <iframe src="../resources/UNCode - guía de uso(2).pdf" frameborder="0"
+                                class="docCollapse2 collapse" id="guide-2-pdf"></iframe>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-3 col-md-3 link-dark">
+                        <div class="logo ml-auto text-center border-bottom">
+                            <h4>Presentaciones</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li><a href="#" id="generalities" class="docAux2"><h5> Generalidades</h5></a></li>
+                            <li><a href="#" id="guide-1" class="docAux2"><h5>Guía de uso v1</h5></a></li>
+                            <li><a href="#" id="guide-2" class="docAux2"><h5> Guía de uso v2</h5></a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="logo ml-auto text-center border-bottom">
-                        <h4>Videos</h4>
+            </div>
+        </div>
+    </section>
+    <!--content-videos-->
+    <section>
+        <div class="container">
+            <div id="video" class="collapse show">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="py-4 mx-auto">
+                            <iframe width="800" height="555" src="https://www.youtube.com/embed/61k4-XHA7Ok"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="submission-ml-v" class="docCollapse collapse show"></iframe>
+                            <iframe width="800" height="555" src="https://www.youtube.com/embed/oGsy5cUN5oM"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="submission-nt-v" class="docCollapse collapse"></iframe>
+                            <iframe width="800" height="555" src="https://www.youtube.com/embed/MCfqImIb4_k"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="use-pyt-v" class="docCollapse collapse"></iframe>
+                            <iframe width="800" height="555" src="https://www.youtube.com/embed/MRXgTWs0Jl4"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="use-ci-v" class="docCollapse collapse"></iframe>
+                            <iframe width="800" height="555" src="https://www.youtube.com/embed/cnlznAG84nQ"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="use-lt-v" class="docCollapse collapse"></iframe>
+                            <iframe width="800" height="555" src="https://www.youtube.com/embed/DNAO3oz9pE8"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="create-tr-v" class="docCollapse collapse"></iframe>
+                            <iframe width="800" height="555" src="https://www.youtube.com/embed/CYpupdUovxs"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="create-nt-test-v" class="docCollapse collapse"></iframe>
+
+                            <iframe width="800" height="555" src="https://www.youtube.com/embed/M2IOTwdZ7VI"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="use-nt-v" class="docCollapse collapse"></iframe>
+                            <iframe width="800" height="555" src="https://www.youtube.com/embed/NsITmeZNPBc"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="create-nt-v" class="docCollapse collapse"></iframe>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-3 link-dark">
+                        <div class="logo ml-auto text-center border-bottom">
+                            <h4>Videos</h4>
+                        </div>
+                        <ul class="list-unstyled components mb-5 py-3">
+                            <a href="#vStudents" data-toggle="collapse" aria-expanded="false"
+                                class="dropdown-toggle"><h5> Videos para estudiantes</h5></a>
+                            <ul class="collapse list-unstyled ml-2" id="vStudents">
+                                <li><a href="#" id="submission-ml" class="docAux">¿Cómo hacer un submission
+                                        multi-lenguajes en UNCode?</a></li>
+                                <li><a href="#" id="submission-nt" class="docAux">¿Cómo hacer un submission
+                                        de un notebook en UNCode?</a></li>
+                                <li><a href="#" id="use-pyt" class="docAux">¿Cómo utilizar Python
+                                        tutor en UNCode?</a></li>
+                                <li><a href="#" id="use-ci" class="docAux">¿Cómo usar custom input en
+                                        UNCode?</a></li>
+                                <li><a href="#" id="use-lt" class="docAux">¿Cómo usar el linter en
+                                        UNCode?</a></li>
+                            </ul>
+                            <a href="#vProfessors" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+                                class="docAux py-3"><h5>Videos para profesores</h5></a>
+                            <ul class="collapse list-unstyled ml-2" id="vProfessors">
+                                <li><a href="#" id="create-tr" class="docAux">¿Cómo crear una tarea en
+                                        UNCode?</a></li>
+                                <li><a href="#" id="create-nt-test" class="docAux">¿Cómo crear un notebook de prueba
+                                        para el grader de
+                                        de notebooks?</a></li>
+                                <li><a href="#" id="use-nt" class="docAux">¿Cómo usar el grader de los notebooks? </a>
+                                </li>
+                                <li><a href="#" id="create-nt" class="docAux">¿Cómo crear notebooks en UNCode?</a>
+                                </li>
+                            </ul>
+                        </ul>
                     </div>
                 </div>
             </div>
