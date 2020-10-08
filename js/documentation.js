@@ -1,5 +1,5 @@
 //Collapse presentations
-$("#presentacion").click(function () {
+$("#presentation").click(function () {
     $("#video").collapse('hide');
     $("#pdf").collapse('show');
 
