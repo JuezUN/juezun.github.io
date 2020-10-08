@@ -172,10 +172,18 @@ iframe {
     border: solid var(--dark) 10px;
 
 }
-
 /*disable*/
 a.disabled {
     pointer-events: none;
     cursor: default;
+}
+
+/*decorator*/
+.box-line{
+    box-sizing: content-box;
+    border: solid var(--dark) 1px;
+}
+.link-style{
+    color: var(--grey);
 }
 
