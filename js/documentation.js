@@ -15,7 +15,7 @@ $('#pdf-list li').click(function () {
     const id = $(this).find('a').attr('id');
 
     if ($('#noCollapse').find(`#${id}`).length !== 1) {
-        let IDs = []
+        let IDs = [];
         $('#pdf-list').find("a").each(function () {
             IDs.push(this.id)
         });
