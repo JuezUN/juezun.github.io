@@ -1,7 +1,7 @@
 function cite(id_ref,id){
     console.log(id_ref);
     /*copy reference*/
-    let aux = document.createElement("input");
+    const aux = document.createElement("input");
     aux.setAttribute("value", document.getElementById(id_ref).innerHTML);
     document.body.appendChild(aux);
     aux.select();
