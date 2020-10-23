@@ -12,7 +12,7 @@ $("#videos").click(function () {
 
 //Collapse pdf
 $('#pdf-list li').click(function () {
-    let id = $(this).find('a').attr('id');
+    const id = $(this).find('a').attr('id');
 
     if ($('#noCollapse').find(`#${id}`).length !== 1) {
         let IDs = []
