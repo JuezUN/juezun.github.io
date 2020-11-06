@@ -1,6 +1,8 @@
 $(function () {
+    /* Change header url for index page */
     $.get("pages/header.html", function (data) {
         let dataAux = $(data);
+        /* Get and change the nav list */
         let list = dataAux.find("#nav-list li");
         $(list).each(function () {
             let aLabel = $(this).find("a");
@@ -8,10 +10,15 @@ $(function () {
                 aLabel.attr("href", `pages/${aLabel.attr("href")}`);
             }
         });
+        /* Change the url for specific resources */
         let logo = dataAux.find("#un-h");
         logo.attr("src","assets/img/LogoUN.png");
         $("#header-index-id").html(dataAux);
+        let logoLink = dataAux.find("#logo-link");
+        logoLink.attr("href","index.html");
+
     });
+    /* Change footer url for index page */
     $.get("pages/footer.html", function (data){
         let dataAux = $(data);
         let tate = dataAux.find("#un-f");
