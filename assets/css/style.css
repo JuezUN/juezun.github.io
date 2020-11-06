@@ -1,4 +1,4 @@
-/*General*/
+/* General */
 :root {
     --dark: rgb(40, 40, 40);
     --grey: #f6f6f6;
@@ -16,7 +16,7 @@ body {
     height: 100%;
 }
 
-/*NavBar*/
+/* NavBar */
 .navbar {
     background-color: var(--grey);
     min-height: 5rem;
@@ -36,27 +36,27 @@ body {
 }
 
 .logo {
-    padding: .875rem 1.25rem !important;
+    padding: .875rem 1.25rem;
 }
 
 .sidebar-container a:hover {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
-/*Background*/
+/* Background */
 .bg-light {
-    background-color: var(--light) !important;
+    background-color: var(--light);
 }
 
 .bg-grey {
-    background-color: var(--grey) !important;
+    background-color: var(--grey);
 }
 
 .bg-dark {
-    background-color: var(--dark) !important;
+    background-color: var(--dark);
 }
 
-/*padding*/
+/* padding */
 .py-6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -73,7 +73,7 @@ body {
 }
 
 
-/*Buttons*/
+/* Buttons */
 .btn {
     padding: .75rem 1rem;
     border-radius: 1.2rem;
@@ -103,7 +103,7 @@ body {
     border-color: var(--dark);
 }
 
-/*link*/
+/* link */
 .link-anm {
     color: var(--light);
     border-bottom: 1px solid rgba(255, 255, 255, .2);
@@ -138,7 +138,7 @@ body {
     color: rgba(0, 0, 0, 0.7);
 }
 
-/*titles*/
+/* titles */
 .main-title p,
 h1 {
     color: var(--light);
@@ -148,7 +148,7 @@ h1 {
     color: var(--dark);
 }
 
-/*content*/
+/* content */
 .content {
     min-height: 100vh;
     padding-bottom: 5rem;
@@ -164,7 +164,7 @@ h1 {
     max-width: 55rem;
 }
 
-/*iframe*/
+/* iframe */
 iframe {
     width: 100%;
     height: 90vh;
@@ -172,18 +172,20 @@ iframe {
     border: solid var(--dark) 10px;
 
 }
-/*disable*/
+
+/* disable */
 a.disabled {
     pointer-events: none;
     cursor: default;
 }
 
-/*decorator*/
-.box-line{
+/* decorator */
+.box-line {
     box-sizing: content-box;
     border: solid var(--dark) 1px;
 }
-.link-style{
+
+.link-style {
     color: var(--grey);
 }
 
