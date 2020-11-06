@@ -11,6 +11,9 @@ $(function () {
         let logo = dataAux.find("#un-h");
         logo.attr("src","assets/img/LogoUN.png");
         $("#header-index-id").html(dataAux);
+        let logoLink = dataAux.find("#logo-link");
+        logoLink.attr("href","index.html");
+
     });
     $.get("pages/footer.html", function (data){
         let dataAux = $(data);
