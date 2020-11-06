@@ -17,7 +17,7 @@ $("#pdf-list li").click(function () {
     if ($("#noCollapse").find(`#${id}`).length !== 1) {
         let IDs = [];
         $("#pdf-list").find("a").each(function () {
-            IDs.push(this.id)
+            IDs.push(this.id);
         });
         IDs = $.grep(IDs, function (value) {
             return value !== id;

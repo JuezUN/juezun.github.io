@@ -1,11 +1,10 @@
 /* General */
 :root {
-    --dark: rgb(40, 40, 40);
+      --dark: rgb(40, 40, 40);
     --grey: #f6f6f6;
-    --light: white;
+      --light: white;
     --green: rgb(148, 180, 59);
     --dark-green: rgb(136, 167, 54);
-
 }
 
 body {
