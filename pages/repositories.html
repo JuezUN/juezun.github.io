@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNCode | Repositorios</title>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--google fount-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--IonIcon-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!--Favicon-->
+    <link rel="icon" href="../assets/img/LogoUN.png" type="image/png"/>
+    <!--Style-->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!--JS-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../assets/js/general.js" type="module"></script>
+
+
+</head>
+
+<body>
+<header>
+    <!--NavBar-->
+    <div data-include="header"></div>
+</header>
+<!--left nav-->
+<section>
+    <div class="container-fluid">
+        <div class="row flex-xl-nowrap">
+            <div class="border-right col-md-3 col-xl-2">
+                <div class="sidebar-container">
+
+                    <div class="logo">
+                        <h4 class="font-weight-bold">Repositorios</h4>
+                    </div>
+                    <div class="link-dark">
+                        <ul class="nav flex-column" id="repositories-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active menu p-3 ml-3" id="ingininious-tab" data-toggle="tab"
+                                   href="#ingininious" role="tab" aria-controls="ingininious"
+                                   aria-selected="true">INGInious</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 ml-3" id="deployment-tab" data-toggle="tab"
+                                   href="#deployment" role="tab" aria-controls="deployment"
+                                   aria-selected="false">Deployment</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 ml-3" id="ingininious-container-tab" data-toggle="tab"
+                                   href="#ingininious-container" role="tab" aria-controls="ingininious-container"
+                                   aria-selected="false">INGInious containers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 ml-3" id="online-python-tab" data-toggle="tab"
+                                   href="#online-python" role="tab" aria-controls="online-python"
+                                   aria-selected="false">Python Tutor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 ml-3" id="linter-web-tab" data-toggle="tab"
+                                   href="#linter-web" role="tab" aria-controls="linter-web"
+                                   aria-selected="false">Linter web service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 ml-3" id="coala-tab" data-toggle="tab" href="#coala"
+                                   role="tab" aria-controls="coala" aria-selected="false">Coala brears</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 ml-3" id="testing-tab" data-toggle="tab" href="#testing"
+                                   role="tab" aria-controls="testing" aria-selected="false">Testing</a>
+                            </li>
+                            <li class="nav-item">
+
+                                <a class="nav-link p-3 ml-3" id="opt-cpp-tab" data-toggle="tab" href="#opt-cpp"
+                                   role="tab" aria-controls="opt-cpp" aria-selected="false">Opt cpp backend</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="content ml-5 mr-4 py-3">
+                    <div class="row ">
+                        <div class="title">
+                            <h1>Repositorios</h1>
+                            <p class="lead"> A continuación se describen los repositorios utilizados</p>
+                        </div>
+                        <div class="col-md-6 text-center mr-2 py-3">
+                            <a href="https://github.com/JuezUN/" class="btn btn-dark mr-2 mb-4">Ir a GitHub</a>
+                        </div>
+                    </div>
+                    <div class="tab-content text-content">
+                        <div class="tab-pane active" id="ingininious" role="tabpanel"
+                             aria-labelledby="ingininious-tab">
+                            <h3>INGInious</h3>
+                            <p class="text-justify">Es el repositorio principal de UNCode.</p>
+                            <p class="text-justify">UNCode es una plataforma online —desarrollada sobre <a
+                                    href="https://github.com/UCL-INGI/INGInious">INGIniois (v0.5)</a>— para practicar
+                                programación y realizar evaluación automática de código escrito por estudiantes, de
+                                forma que apoye su proceso de aprendizaje.</p>
+                            <p class="text-justify">Actualmente la plataforma es usada en la Universidad Nacional de
+                                Colombia, sede Bogotá,
+                                para evaluar código escrito en varios lenguajes de programación como C/C++, Java y
+                                Python 3; además el juez puede ser usado en lenguajes descriptivos como VHDL y Verilog,
+                                o en ejercicios planteados en Notebooks de Jupyter. Es por esta razón que UNCode ha sido
+                                implementada en varios cursos de la universidad tales como: programación básica de
+                                computadores, estructura de datos, Machine Learning, Inteligencia artificial,
+                                programación cuántica, lenguajes de programación, entre otros.</p>
+                            <p class="text-justify">UNCode está constituido por un backend que maneja la interacción con
+                                Docker y el
+                                evaluador, y un frontend donde los estudiantes pueden subir sus códigos en una simple
+                                pero agradable interfaz. El frontend además incluye una interfaz de administrador que
+                                permite a los profesores y tutores revisar el progreso de sus estudiantes y modificar
+                                los ejercicios de forma sencilla. </p>
+                            <p class="text-justify">Ambas partes que constituyen UNCode, backend y frontend, son
+                                independientes entre sí.
+                                Particularmente el backend ha sido creado para poder ser usado como si fuera una
+                                librería.</p>
+                            <p class="text-justify">
+                                Otra característica interesante de la plataforma es que puede ser implementado como un
+                                evaluador externo para LMS (Learning Managment Systems), como Moodle u OpenEDX.
+                            </p>
+
+                            <div class="mr-2 py-2">
+                                <a href="https://github.com/JuezUN/INGInious"
+                                   class="btn btn-dark-outline mr-2 mb-4">Repositorio</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="deployment" role="tabpanel" aria-labelledby="deployment-tab">
+                            <h3>Deployment</h3>
+                            <p>Este repositorio contiene los scripts necesarios para efectuar el despliegue automático
+                                de UNCode junto a todas sus características.</p>
+                            <div class="mr-2 py-2">
+                                <a href="https://github.com/JuezUN/Deployment"
+                                   class="btn btn-dark-outline mr-2 mb-4">Repositorio</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="ingininious-container" role="tabpanel"
+                             aria-labelledby="ingininious-container-tab">
+                            <h3>INGInious Container</h3>
+                            <p class="text-justify">Este repositorio contiene los contenedores utilizados para la
+                                ejecución y evaluación de
+                                código de UNCode disponibles en <a href="https://hub.docker.com/u/unjudge">Docker
+                                    Hub.</a></p>
+                            <p class="text-justify">No todos los contenedores son usados en UNCode, ya que parte de
+                                estos se destina para
+                                <a href="https://github.com/UCL-INGI/INGInious-containers">INGInious-containers</a>.
+                                Solo están explicados los contenedores desarrollados por nosotros.</p>
+                            <div class="mr-2 py-2">
+                                <a href="https://github.com/JuezUN/INGInious-containers"
+                                   class="btn btn-dark-outline mr-2 mb-4">Repositorio</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="online-python" role="tabpanel"
+                             aria-labelledby="online-python-tab">
+                            <h3>Python tutor</h3>
+                            <p class="text-justify">Python Tutor es una herramienta que ayuda a superar una de las
+                                mayores barreras en el
+                                proceso de aprendizaje de la programación: comprender lo que está sucediendo en cada
+                                línea del código fuente. La herramienta permite visualizar pasa a paso el comportamiento
+                                de código escrito en Python, Java, JavaScript, TypeScript, Ruby, C o C++ en navegadores
+                                web.</p>
+                            <p class="text-justify">En el repositorio se hicieron algunas modificaciones al código
+                                original con el propósito
+                                de que este componente fuera un servicio de Docker para poder ser embebido en la
+                                interfaz de UNCode, y así permitir a los usuarios visualizar código escrito en Python 3,
+                                C/C++ y Java.</p>
+                            <p class="text-justify">El proyecto de Python tutor fue creada por <a
+                                    href="https://pg.ucsd.edu/">Philip Guo</a>
+                                en
+                                enero del 2010. Aquí puedes ver la
+                                <a href="https://github.com/JuezUN/OnlinePythonTutor/blob/master/history.txt">historia
+                                    del
+                                    proyecto.</a></p>
+                            <div class="mr-2 py-2">
+                                <a href="https://github.com/JuezUN/OnlinePythonTutor"
+                                   class="btn btn-dark-outline mr-2 mb-4">Repositorio</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="linter-web" role="tabpanel" aria-labelledby="linter-web-tab">
+                            <h3>Linter web service</h3>
+                            <p class="text-justify">Este repositorio contiene el código encargado de ofrecer el servicio
+                                de “linting” en
+                                UNCode, mediante un contenedor que está en <a href="https://hub.docker.com/u/unjudge">Docker
+                                    Hub</a> en el repositorio
+                                <a href="https://hub.docker.com/r/unjudge/linter-web-service">unjudge/linter-web-service</a>.
+                                Este servicio ayuda a los estudiantes señalando los errores
+                                de programación o de malas prácticas.</p>
+                            <div class="mr-2 py-2">
+                                <a href="https://github.com/JuezUN/linter-web-service"
+                                   class="btn btn-dark-outline mr-2 mb-4">Repositorio</a>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade" id="coala" role="tabpanel" aria-labelledby="coala-tab">
+                            <h3>Coala bears</h3>
+                            <p class="text-justify">Cola-bears es un paquete de Python que contiene todos los “bears” (o
+                                plugins) soportados
+                                oficialmente por coala. Se cuenta con más de 78 “bears” que cubren 54 idiomas. Coala
+                                permite la creación de reglas y estándares a ser seguidos en el desarrollo de código
+                                fuente, de manera que puede hacer un proceso de “linting” (detección y marcado de
+                                errores de programación) y arreglos en el código basándose en esos parámetros. Aquí hay
+                                una <a href="https://github.com/coala/bear-docs/"> lista general </a>que contiene
+                                información sobre cada “bear”, tales como los idiomas que
+                                soporta y las correcciones que puede aplicar al código.
+                            </p>
+                            <div class="mr-2 py-2">
+                                <a href="https://github.com/JuezUN/coala-bears"
+                                   class="btn btn-dark-outline mr-2 mb-4">Repositorio</a>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="testing" role="tabpanel" aria-labelledby="testing-tab">
+                            <h3>Testing</h3>
+                            <p class="text-justify">En este repositorio se puede encontrar diferentes pruebas para
+                                aplicar a UNCode.</p>
+                            <p class="text-justify">Por el momento, la única prueba que tenemos es <em>load testing</em>.
+                                Esta prueba
+                                consiste en
+                                ver y medir el comportamiento del servidor cuando muchos usuarios están tratando de usar
+                                la aplicación al mismo tiempo. Esto puede incluir iniciar sesión, ir a la pagina de
+                                tareas y realizar un envío. Esta prueba está hecha con <b>JMeter</b>, probando varios
+                                flujos de
+                                trabajo como el desempeño o el envío de Notebooks.</p>
+                            <div class="mr-2 py-2">
+                                <a href="https://github.com/JuezUN/Testing"
+                                   class="btn btn-dark-outline mr-2 mb-4">Repositorio</a>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="opt-cpp" role="tabpanel" aria-labelledby="opt-cpp-tab">
+                            <h3>Opt cpp backend</h3>
+                            <p class="text-justify">Este repositorio contiene el backend de C/C++ para <a
+                                    href="https://github.com/JuezUN/OnlinePythonTutor">Online Python Tutor</a>. Hemos
+                                realizado
+                                un <em>fork</em> a este repositorio para añadir algunas modificaciones necesarias para
+                                nuestros
+                                propósitos, y así proporcionar correctamente el servicio de “Python tutor”.</p>
+                            <p class="text-justify">El código del repositorio fue desarrollado usando <em>Docker
+                                stored</em> en Doker Hub:
+                                <a href="https://hub.docker.com/r/unjudge/opt-cpp-backend">unjudge/opt-cpp-backend</a>,
+                                que al mismo tiempo es usado por un servicio de Linux llamado
+                                <em>cokap</em>. </p>
+                            <div class="mr-2 py-2">
+                                <a href="https://github.com/JuezUN/opt-cpp-backend"
+                                   class="btn btn-dark-outline mr-2 mb-4">Repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<footer>
+    <div data-include="footer"></div>
+</footer>
+<!-- Bootstrap js-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+</body>
+
+</html>

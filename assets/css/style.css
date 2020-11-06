@@ -1,0 +1,189 @@
+/* General */
+:root {
+    --dark: #282828;
+    --grey: #f6f6f6;
+    --light: #fff;
+    --green: #94b43b;
+    --dark-green: #88a736;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: var(--grey);
+    height: 100%;
+}
+
+/* NavBar */
+.navbar {
+    background-color: var(--grey);
+    min-height: 5rem;
+}
+
+.logo-brand {
+    width: 45px;
+    height: 45px;
+}
+
+.sidebar-container {
+    min-height: 100vh;
+}
+
+.menu {
+    width: 18rem;
+}
+
+.logo {
+    padding: 0.875rem 1.25rem;
+}
+
+.sidebar-container a:hover {
+    text-decoration: none;
+}
+
+/* Background */
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+/* padding */
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.py-4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.py-3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+/* Buttons */
+.btn {
+    padding: 0.75rem 1rem;
+    border-radius: 1.2rem;
+    font-weight: 700;
+    width: 115px;
+}
+
+.btn-dark {
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+.btn-dark:hover {
+    color: var(--light);
+    background-color: var(--dark-green);
+    border-color: var(--dark-green);
+}
+
+.btn-dark-outline {
+    border-color: var(--dark);
+    color: var(--dark);
+}
+
+.btn-dark-outline:hover {
+    color: var(--light);
+    background-color: var(--dark);
+    border-color: var(--dark);
+}
+
+/* link */
+.link-anm {
+    color: var(--light);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.link-anm:hover {
+    color: var(--light);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentcolor;
+    text-decoration-thickness: auto;
+    transition: 0.3s ease-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+.link-dark a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.link-dark a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* titles */
+.main-title p,
+h1 {
+    color: var(--light);
+}
+
+.title h1 {
+    color: var(--dark);
+}
+
+/* content */
+.content {
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.text-content p {
+    box-sizing: border-box;
+    max-width: 51rem;
+}
+
+.title-content h2 {
+    box-sizing: border-box;
+    max-width: 55rem;
+}
+
+/* iframe */
+iframe {
+    width: 100%;
+    height: 90vh;
+    box-sizing: content-box;
+    border: solid var(--dark) 10px;
+}
+
+/* disable */
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+/* decorator */
+.box-line {
+    box-sizing: content-box;
+    border: solid var(--dark) 1px;
+}
+
+.link-style {
+    color: var(--grey);
+}
+
