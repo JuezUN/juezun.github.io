@@ -1,10 +1,10 @@
 /* General */
 :root {
-      --dark: rgb(40, 40, 40);
+    --dark: #282828;
     --grey: #f6f6f6;
-      --light: white;
-    --green: rgb(148, 180, 59);
-    --dark-green: rgb(136, 167, 54);
+    --light: #ffffff;
+    --green: #94B43B;
+    --dark-green: #88A736;
 }
 
 body {
@@ -105,7 +105,7 @@ body {
 /* link */
 .link-anm {
     color: var(--light);
-    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom-color: rgba(255, 255, 255, 0.2);
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -169,7 +169,6 @@ iframe {
     height: 90vh;
     box-sizing: content-box;
     border: solid var(--dark) 10px;
-
 }
 
 /* disable */

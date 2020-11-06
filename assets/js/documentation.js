@@ -36,7 +36,7 @@ $("#videos-list li").click(function () {
     let id = $(this).find("a").attr("id");
     let IDs = [];
     $("#videos-list li").find("a").each(function () {
-        IDs.push(this.id)
+        IDs.push(this.id);
     });
 
     IDs = $.grep(IDs, function (value) {
