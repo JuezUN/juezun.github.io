@@ -50,7 +50,7 @@ clear and has sufficient instructions to be able to reproduce the issue.
 
 ## License
 In short, when you submit code changes, your submissions are understood to be under the 
-same [GNU AGPL v3](https://github.com/JuezUN/JuezUN.github.io/blob/master/LICENSE) that covers the project. 
+same [GNU AGPL v3](https://github.com/JuezUN/juezun.github.io/blob/master/LICENSE) that covers the project. 
 Feel free to contact the maintainers if that's a concern.
 
 ## Community
