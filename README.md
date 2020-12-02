@@ -28,4 +28,4 @@ Distributed under the AGPL-3.0 License. See [LICENSE](https://github.com/JuezUN/
 
 ## Contact
 
-In case of technical questions, please use the [gitter communication channel][https://gitter.im/uncode-unal/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge].
+In case of technical questions, please use the [gitter communication channel](https://gitter.im/uncode-unal/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge]).
