@@ -12,7 +12,7 @@ $(function () {
         });
         /* Change the url for specific resources */
         let logo = dataAux.find("#un-h");
-        logo.attr("src","assets/img/LogoUN.png");
+        logo.attr("src","assets/img/logo_simp.svg");
         $("#header-index-id").html(dataAux);
         let logoLink = dataAux.find("#logo-link");
         logoLink.attr("href","index.html");
