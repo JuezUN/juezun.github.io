@@ -25,7 +25,7 @@ $(function () {
         let logo = dataAux.find("#unC-f");
         let contributorsLink = dataAux.find("#contributors-link");
         tate.attr("src","assets/img/escudo-letras.png");
-        logo.attr("src","assets/img/Logo.png");
+        logo.attr("src","assets/img/logo.png");
         contributorsLink.attr("href",`pages/${contributorsLink.attr("href")}`);
         $("#footer-index-id").html(dataAux);
     });
