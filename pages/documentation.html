@@ -237,3 +237,239 @@
 </body>
 
 </html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNCode | Documentation</title>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--google foun-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--IonIcon-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Favicon-->
+    <link rel="icon" href="../assets/img/logo_simp.svg" type="image/svg+xml"/>
+    <!--Style-->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="../assets/js/documentation.js" type="module"></script>
+    <script src="../assets/js/general.js" type="module"></script>
+
+</head>
+
+<body>
+<header>
+    <!--NavBar-->
+    <div data-include="header"></div>
+</header>
+<!-- subnav -->
+<section class="bg-light border-bottom">
+    <div class="container link-dark">
+        <ul class="nav justify-content-end" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="presentation">Presentations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="videos">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/JuezUN/INGInious/wiki" target="_blank">UNCode Wiki
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"
+                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                              d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+<!--content-pdf-->
+<section>
+    <div class="container">
+        <div id="pdf" class="collapse show">
+            <div class="row">
+                <div class="col-md-9 mx-auto">
+                    <div class="py-3">
+                        <iframe src="../assets/resources/UNCode - generalidades.pdf" frameborder="0"
+                                class="collapse show"
+                                id="generalities-pdf"></iframe>
+                    </div>
+                    <div class="py-3">
+                        <iframe src="../assets/resources/UNCode - guía de uso(1).pdf" frameborder="0"
+                                class="collapse" id="guide-1-pdf"></iframe>
+                    </div>
+
+                </div>
+                <div class="col-xl-3 col-md-3 link-dark">
+                    <div class="logo ml-auto text-center border-bottom">
+                        <h4>Presentations</h4>
+                    </div>
+                    <ul class="list-unstyled px-3" id="pdf-list">
+                        <li><a href="#" id="generalities"><h5> Generalities</h5></a></li>
+                        <li><a href="#" id="guide-1"><h5>User guides</h5></a></li>
+                        <div id="noCollapse">
+                            <li><a href="../assets/resources/UNCode%20-%20guía%20de%20uso.ppsx"
+                                   download="UNCode - guía de uso" id="uncode-slides"><h5>Animated user guides<i
+                                    class="icon ion-md-download ml-2"></i></h5></a></li>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--content-videos-->
+<section>
+    <div class="container">
+        <div id="video" class="collapse">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="py-4 mx-auto">
+                        <!-- Submission 1 -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/Ff23StuyHK4" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="submission-ml-v" class="collapse show"></iframe>
+                        <!-- Submission 2 -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/kjxSq0DfCy0" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="submission-nt-v" class="collapse"></iframe>
+                        <!-- Custom input --->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/5IlounUiYRU" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="use-ci-v" class="collapse"></iframe>
+                        <!-- Linter -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/0KLeEBSBth4" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="use-lt-v" class="collapse"></iframe>
+                        <!-- Python Tutor -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/16hEhhx6gw0" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="use-pyt-v" class="collapse"></iframe>
+                        <!-- Subir Proyecto -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/V5x2fghvTsE" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="project-up-v" class="collapse"></iframe>
+
+                        <!-- Professors -->
+
+                        <!-- Cómo Crear tarea en UNCode -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/i8wAqXv3X9o" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="create-tr-v" class="collapse"></iframe>
+                        <!-- Crear notebooks -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/EpLnTyt86Uc" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="create-nt-v" class=" collapse"></iframe>
+                        <!-- ¿Cómo usar el grader de los notebooks? -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/M2IOTwdZ7VI"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="use-nt-v" class=" collapse"></iframe>
+                        <!-- ¿Cómo crear un notebook de prueba para el grader de notebooks? -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/CYpupdUovxs"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="create-nt-test-v" class=" collapse"></iframe>
+                        <!-- ¿cómo crear una plantilla para un problema en UNCode? -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/SDFX2ut8oFQ" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="create-temp-v" class="collapse"></iframe>
+                        <!-- ¿cómo crear una tarea tipo proyecto  en UNCOde? -->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/yrVZJu-6KPA" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="create-proj-v" class="collapse"></iframe>
+                        <!-- ¿Cómo registrar estudiantes en un curso con un archivo .csv?-->
+                        <iframe width="800" height="555" src="https://www.youtube.com/embed/aZhKjERyzzM" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen id="reg-student-v" class="collapse"></iframe>
+
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 link-dark">
+                    <div class="logo ml-auto text-center border-bottom">
+                        <h4>Videos</h4>
+                    </div>
+                    <ul class="list-unstyled components mb-5 py-3 px-3" id="videos-list">
+                        <a href="#vStudents" data-toggle="collapse" aria-expanded="false"
+                           class="dropdown-toggle"><h5> Videos for students</h5></a>
+                        <ul class="collapse list-unstyled ml-2" id="vStudents">
+                            <!-- Submission 1-->
+                            <li><a href="#" id="submission-ml">How to do a multilang submission
+                                in UNCode?</a></li>
+                            <!-- Submission 2-->
+                            <li><a href="#" id="submission-nt">How to do a notebook submission
+                                in UNCode?</a></li>
+                            <!-- Custom input--->
+                            <li><a href="#" id="use-ci">How to use the custom input tool in
+                                UNCode?</a></li>
+                            <!--Linter-->
+                            <li><a href="#" id="use-lt">How to use the linter in UNCode?</a>
+                                <!--Python Tutor-->
+                            <li><a href="#" id="use-pyt">How to use Python tutor in UNCode?</a></li>
+                            <!-- Subir Proyecto -->
+                            <li><a href="#" id="project-up">How to upload a project to UNCode?</a></li>
+                        </ul>
+                        <a href="#vProfessors" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
+                           class="docAux py-3 px-3"><h5>Videos para profesores</h5></a>
+                        <ul class="collapse list-unstyled ml-2" id="vProfessors">
+                            <!-- Cómo Crear tarea en UNCode -->
+                            <li>
+                                <a href="#" id="create-tr">How to create a new task in
+                                    UNCode?</a>
+                            </li>
+                            <!-- Crear notebooks -->
+                            <li>
+                                <a href="#" id="create-nt">How to create a notebook in UNCode?</a>
+                            </li>
+                            <!-- ¿Cómo usar el grader de los notebooks? -->
+                            <li>
+                                <a href="#" id="use-nt">How to use the notebooks grader? </a>
+                            </li>
+                            <!-- ¿Cómo crear un notebook de prueba para el grader de notebooks? -->
+                            <li>
+                                <a href="#" id="create-nt-test">How to create a test notebook for
+                                    the notebooks grader?</a>
+                            </li>
+                            <!-- ¿cómo crear una plantilla para un problema en UNCode? -->
+                            <li>
+                                <a href="#" id="create-temp"> How to create a template for a task problem? </a>
+                            </li>
+                            <!-- ¿cómo crear una tarea tipo proyecto  en UNCOde? -->
+                            <li>
+                                <a href="#" id="create-proj"> How to create a problem type project? </a>
+                            </li>
+                            <!-- ¿Cómo registrar estudiantes en un curso con un archivo .csv? -->
+                            <li>
+                                <a href="#" id="reg-student"> How to register students in a course using a .csv file? </a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---Footer-->
+<footer>
+    <div data-include="footer"></div>
+</footer>
+<!-- Bootstrap js-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+
+</body>
+
+</html>

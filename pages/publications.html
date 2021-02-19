@@ -287,3 +287,288 @@
 </body>
 
 </html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNCode | Publications</title>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--google foun-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--IonIcon-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!--Favicon-->
+    <link rel="icon" href="../assets/img/logo_simp.svg" type="image/svg+xml"/>
+    <!--Style-->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!--js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../assets/js/publications.js" type="module"></script>
+    <script src="../assets/js/general.js" type="module"></script>
+</head>
+
+<body>
+<header>
+    <!--NavBar-->
+    <div data-include="header"></div>
+</header>
+<!--Content-->
+<section>
+    <div class="container ">
+        <div class="row title">
+            <div class="col">
+                <h1 class="border-bottom py-4">Publications</h1>
+                <ul class="list-group list-group-flush link-dark text-content title-content bg-light ">
+                    <li class="list-group-item border-bottom bg-grey">
+                        <h4 class="text-justify" id="paper-1" aria-controls="#abstract-1-content"
+                            onclick="toggleContent(this.id)" style="cursor: help">
+                            F. Restrepo-Calle, J.J.
+                            Ramírez-Echeverry, F.A. Gonzalez. "UNCode: Interactive system for learning and automatic
+                            evaluation of computer programming skills.". In Proceedings of the 10th annual
+                            International Conference on Education and New Learning Technologies EDULEARN 2018. Palma
+                            de Mallorca, Spain, 2nd-4th July 2018, pp. 6888-6898. doi:
+                            10.21125/edulearn.2018.1632</h4>
+                        <div class="collapse" id="abstract-1-content">
+                            <p lang="en" class="text-justify">This paper presents an educational environment to learn
+                                how to
+                                program computers
+                                which
+                                integrates an automatic grading tool. The educational environment offers summative and
+                                formative feedback, by evaluating the functionality of computer programs. Given a
+                                programming problem, students must write a solution and validate it through the
+                                automatic
+                                grading tool of the educational environment. Summative feedback is offered through
+                                verdicts
+                                of the programs, indicating whether the syntax, semantics and efficiency of the program
+                                are
+                                correct or present some type of error. Based on these verdicts, a grade is assigned to
+                                the
+                                solutions proposed by the students. Moreover, the environment also offers formative
+                                feedback
+                                through different mechanisms that support the student in the improvement of the proposed
+                                programming solutions, before these solutions are submitted for assessment. These
+                                mechanisms
+                                include: a code editor with syntax highlighting and automatic autocompletion; automatic
+                                verification of good programming practices; interactive visualization of the program
+                                execution from its source code; a partial scoring system, which assigns partial credit
+                                to
+                                incomplete or not entirely correct solutions; a test module with personalized inputs;
+                                support for submitting programs with multiple source code files and projects;
+                                compatibility
+                                for several programming languages ​​including Java, Python, JavaScript and C/C++; a
+                                manual
+                                assessment module; and interactive statistical reports for students and teachers.</p>
+                            <p lang="en" class="text-justify">
+                                The state of the art of tools to support the learning of computer programming is
+                                comprised
+                                of learning environments and automatic grading systems. The first group includes: basic
+                                programming environments, interactive environments based on examples,
+                                visualizations/animations, and intelligent tutoring systems. However, generally these
+                                systems lack of grading tools, which could be useful to carry out formative evaluation
+                                processes while the students practice. On the other hand, in most cases the automatic
+                                grading systems focus only on the assessment of the programs (online judges), which are
+                                generally adaptations of the evaluation systems used in programming competitions.
+                                Although
+                                these systems have been shown to be effective in improving the practical skills of
+                                students
+                                and the competitive aspect has proven to be an excellent motivation for students, these
+                                systems fall short as formative assessment tools. This is due to the limited feedback
+                                given
+                                to the student and their lack of integration with content and tools typical from
+                                learning
+                                environments.
+                            </p>
+                            <p lang="en" class="text-justify">
+                                In this context, the educational environment presented in this paper extends an
+                                automatic
+                                grading tool for computer programs with new functionalities that make it a truly support
+                                system for learning computer programming.
+                            </p>
+                        </div>
+                        <div>
+                            <a href="https://library.iated.org/view/RESTREPOCALLE2018UNC" target="_blank" class="py-3">Go to the paper site</a>
+                            <a href="../assets/resources/UNCode-slides.pdf" download="UNCode-slides" class="px-3">Download
+                                slides</a>
+                            <a onclick="toggleContent(this.id)" id="uncode-cite-1" type="button"
+                               role="button"
+                               class="link-style popovers " data-toggle="tooltip" data-placement="right"
+                               aria-controls="#uncode-cite-1-container">How to quote</a>
+                        </div>
+                        <div class="row px-4 collapse py-2" id="uncode-cite-1-container">
+                            <p class="font-italic box-line p-1">
+                                <small>
+                                    @InProceedings{Restrepo-Calle2018, <br>
+                                    author = {Restrepo-Calle, F. and Ram{\'{i}}rez-Echeverry, J.J. and Gonzalez,
+                                    F.A.},<br>
+                                    title = {{UNCode: Interactive System for Learning and Automatic Evaluation of
+                                    Computer Programming Skills}},<br>
+                                    series = {10th International Conference on Education and New Learning Technologies},<br>
+                                    booktitle = {EDULEARN18 Proceedings},<br>
+                                    isbn = {978-84-09-02709-5},<br>
+                                    issn = {2340-1117},<br>
+                                    doi = {10.21125/edulearn.2018.1632},<br>
+                                    url = {<a href="http://dx.doi.org/10.21125/edulearn.2018.1632" target="_blank">http://dx.doi.org/10.21125/edulearn.2018.1632</a>},<br>
+                                    publisher = {IATED},<br>
+                                    location = {Palma, Spain},<br>
+                                    month = {2-4 July, 2018},<br>
+                                    year = {2018},<br>
+                                    pages = {6888-6898}<br>
+                                    }</small>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list-group-item border-bottom bg-grey">
+                        <h4 class="text-justify" id="paper-2" aria-controls="#abstract-2-content"
+                            onclick="toggleContent(this.id)" style="cursor: help">Restrepo‐Calle, F,
+                            Ramírez Echeverry, JJ, González, FA. Continuous assessment in a computer programming
+                            course supported by a software tool. Comput Appl Eng Educ. 2019; 27: 80– 89.
+                            https://doi.org/10.1002/cae.22058</h4>
+                        <div class="collapse" id="abstract-2-content">
+                            <p lang="en" class="text-justify">
+                                This article presents a continuous assessment methodology for
+                                a computer
+                                programming
+                                course supported by an automatic assessment tool, applied to the practical programming
+                                exercises performed by the students. The interaction between the students and the
+                                assessment
+                                tool was studied through quantitative analyses. In particular, the solutions proposed by
+                                the
+                                students (computer programs) were analyzed using the verdicts given by the automatic
+                                assessment tool: correct solutions or incorrect solutions. In the case of incorrect
+                                solutions, the types of programming errors were studied. Additionally, interaction was
+                                also
+                                studied by analyzing the students’ success rate. This rate is the percentage of correct
+                                solutions among the total number of attempts (correct and incorrect). Moreover, the
+                                relationship between success rate and academic performance was analyzed. Furthermore,
+                                this
+                                research examines the students’ perceptions toward the assessment tool through
+                                interviews.
+                                The results of this study help understanding the benefits and perceptions of the
+                                students
+                                with respect to the use of an automatic assessment tool in a computer programming
+                                course.</p>
+                        </div>
+                        <div>
+                            <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/cae.22058" target="_blank"
+                               class="py-3">Go to the paper site</a>
+                            <a onclick="toggleContent(this.id)" id="uncode-cite-2" type="button"
+                               role="button"
+                               class="link-style popovers px-3" data-toggle="tooltip" data-placement="right"
+                               aria-controls="#uncode-cite-2-container">How to quote</a>
+                        </div>
+                        <div class="row px-4 collapse py-2" id="uncode-cite-2-container">
+                            <p class="font-italic box-line p-1">
+                                <small>
+                                    @article{Restrepo-Calle2019,<br>
+                                    author = {Restrepo-Calle, Felipe and {Ram{\'{i}}rez Echeverry}, Jhon J. and
+                                    Gonz{\'{a}}lez, Fabio A.},<br>
+                                    doi = {10.1002/cae.22058},<br>
+                                    issn = {10613773},<br>
+                                    journal = {Computer Applications in Engineering Education},<br>
+                                    keywords = {automatic assessment,computer programming,computer science
+                                    education,continuous assessment},<br>
+                                    month = {jan},<br>
+                                    number = {1},<br>
+                                    pages = {80--89},<br>
+                                    title = {{Continuous assessment in a computer programming course supported by a
+                                    software tool}},<br>
+                                    url = {<a href="http://doi.wiley.com/10.1002/cae.22058" target="_blank">http://doi.wiley.com/10.1002/cae.22058</a>},<br>
+                                    volume = {27},<br>
+                                    year = {2019}<br>
+                                    }
+                                </small>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list-group-item border-bottom bg-grey">
+                        <h4 class="text-justify" id="paper-3" aria-controls="#abstract-3-content"
+                            onclick="toggleContent(this.id)" style="cursor: help">F. Restrepo-Calle, J.J.
+                            Ramírez-Echeverry, F.A. González, “Using an Interactive Software Tool for the Formative
+                            and Summative Evaluation in a Computer Programming Course: an Experience Report,” Glob.
+                            J. Eng. Educ., vol. 22, no. 3, pp. 174–185, 2020.</h4>
+                        <div class="collapse" id="abstract-3-content">
+                            <p lang="en" class="text-justify">
+                                This article describes the use of an automatic tool that supports both formative and
+                                summative evaluation, in an introductory computer programming course. The aim was to
+                                test
+                                the tool in a real scenario and to assess its potential benefits. The participants were
+                                56
+                                students in an engineering school. Different programming tasks were solved by students
+                                with
+                                the support of the tool. It provides summative evaluation using automatic grading, and
+                                formative evaluation through real-time checking of good coding practices, code execution
+                                visualisation, testing code with custom inputs, informative feedback on failed test
+                                cases,
+                                and student performance statistics for self-monitoring the learning process. Results of
+                                the
+                                experience show the students considerably used the tool, denoting high engagement to
+                                achieve
+                                the learning goals of the tasks. The students perceived the tool was highly useful to
+                                debug
+                                programs and carry out frequent practice of programming, thanks to the automatic
+                                feedback
+                                and test of solutions for programming assignments. Results offer evidence of the
+                                importance
+                                of providing comprehensive feedback to facilitate students finding mistakes and building
+                                knowledge about how to proceed in case of errors. Moreover, the tool shows some
+                                potential to
+                                help students developing learning strategies, e.g. metacognitive awareness and improving
+                                problem-solving skills.
+                            </p>
+                        </div>
+                        <div>
+                            <a href="http://www.wiete.com.au/journals/GJEE/Publish/vol22no3/06-Echeverry-J.pdf" target="_blank" class="py-3">Go to the paper site</a>
+                            <a onclick="toggleContent(this.id)" id="uncode-cite-3" type="button"
+                               role="button"
+                               class="link-style popovers px-3" data-toggle="tooltip" data-placement="right"
+                               aria-controls="#uncode-cite-3-container">How to quote</a>
+                        </div>
+                        <div class="row px-4 collapse py-2" id="uncode-cite-3-container">
+                            <p class="font-italic box-line p-1">
+                                <small>
+                                    @article{Restrepo-Calle2020,<br>
+                                    author = {Restrepo-Calle, Felipe and Ram{\'{i}}rez-Echeverry, Jhon Jairo and
+                                    Gonz{\'{a}}lez, Fabio A},<br>
+                                    journal = {Global Journal of Engineering Education},<br>
+                                    keywords = {automatic assessment,computer programming,computer science
+                                    education,formative evaluation,summative evaluation},<br>
+                                    number = {3},<br>
+                                    pages = {174--185},<br>
+                                    title = {{Using an Interactive Software Tool for the Formative and Summative
+                                    Evaluation in a Computer Programming Course: an Experience Report}},<br>
+                                    volume = {22},<br>
+                                    year = {2020}<br>
+                                    }
+                                </small>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!---Footer-->
+<footer>
+    <div data-include="footer"></div>
+</footer>
+
+<!-- Bootstrap js-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+</body>
+
+</html>
