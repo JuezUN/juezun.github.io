@@ -1,31 +1,28 @@
-const indexMessages = {
+const indexPageMessages = {
     'languages': {
         'en': {
-            'title1': 'UNCode: <br> A tool for automatic learning and grading of programming exercises',
-            'description1': 'UNCode was developed by ' +
-                  '<a class="link-anm"' +
-                  'href="http://plas.unal.edu.co/"' +
-                  'target="_blank">PLaS</a>, a research group of the <a' +
-                  'class="link-anm"' +
-                  'href="https://unal.edu.co/" target="_blank">Universidad Nacional de Colombia</a>',
-            'login': 'Login',
-            'register': 'Register',
-            'title2': 'Multiple grading environments',
-            'description2': 'You can work in UNCode with multiple programming ' +
+            'index-title1': 'UNCode: <br> A tool for automatic learning and grading of programming exercises',
+            'index-description1': 'UNCode was developed by ' +
+                  '<a class="link-anm" href="http://plas.unal.edu.co/" target="_blank">PLaS</a>, a research group of the ' +
+                  '<a class="link-anm" href="https://unal.edu.co/" target="_blank">Universidad Nacional de Colombia</a>',
+            'index-login': 'Login',
+            'index-register': 'Register',
+            'index-title2': 'Multiple grading environments',
+            'index-description2': 'You can work in UNCode with multiple programming ' +
                   'languages such as Python, Java, C and C++. Also, ' +
                   'you can use hardware description languages like ' +
                   'Verilog and VHDL, and do suggested activities in ' +
                   'Jupyter notebooks. ',
-            'title3': 'Multiple programming languages',
-            'title4': 'Notebooks integration',
-            'title5': 'Hardware Description Languages (HDL)',
-            'title6': 'Automatic grading system',
-            'description3': 'UNCode has a tasks automatic grading system based on ' +
+            'index-title3': 'Multiple programming languages',
+            'index-title4': 'Notebooks integration',
+            'index-title5': 'Hardware Description Languages (HDL)',
+            'index-title6': 'Automatic grading system',
+            'index-description3': 'UNCode has a tasks automatic grading system based on ' +
                     '<a href="https://inginious.org/" target="_blank">INGInious</a>, which is done in ' +
                     'a flexible, secure, scalable and configurable way for your goals. Also UNCode sends an ' +
                     'automatic feedback to the student when a submssion is made.',
-            'title7': 'Tools for the students',
-            'description4': 'UNCode helps to the students learning process through a automatic grading with ' +
+            'index-title7': 'Tools for the students',
+            'index-description4': 'UNCode helps to the students learning process through a automatic grading with ' +
                     'a feedback. This feedback is both summative and formative. The summative feedback part is given to ' +
                     'the students through a numerical grade. The formative part deals with programming concepts related ' +
                     'to sintax, semantics, code maintenance, and performing custom tests. UNCode have a ' +
@@ -33,37 +30,34 @@ const indexMessages = {
                     'to check student code and make suggestions for good practices, a running code visualizer in ' +
                     '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a> ,' +
                     'a customizable input and output tests environment, code templates for programming tasks, etc.',
-            'title8': 'Monitoring tools',
-            'description5': 'UNCode has an interactive statistics report generator module for teachers and students.',
-            'title9': 'Teachers tools',
-            'description6':'UNCode have an assistant for the easy and automatic creation of the tasks, ' +
+            'index-title8': 'Monitoring tools',
+            'index-description5': 'UNCode has an interactive statistics report generator module for teachers and students.',
+            'index-title9': 'Teachers tools',
+            'index-description6':'UNCode have an assistant for the easy and automatic creation of the tasks, ' +
                     'a programming problem bank, a manual grading module, a plagiarism report generator, etc.'
         },
         'es': {
-            'title1': 'UNCode: <br> Un entorno para el aprendizaje y evaluación automática de ejercicios de programación',
-            'description1': 'Desarrollado por el grupo de investigación ' +
-                  '<a class="link-anm"' +
-                  'href="http://plas.unal.edu.co/"' +
-                  'target="_blank">PLaS</a> de la <a' +
-                  'class="link-anm"' +
-                  'href="https://unal.edu.co/" target="_blank">Universidad Nacional de Colombia</a>',
-            'login': 'Ingresar',
-            'register': 'Registrarse',
-            'title2': 'Múltiples entornos de evaluación',
-            'description2': 'Con UNCode puedes trabajar con múltiples lenguajes de programación ' +
+            'index-title1': 'UNCode: <br> Un entorno para el aprendizaje y evaluación automática de ejercicios de programación',
+            'index-description1': 'Desarrollado por el grupo de investigación ' +
+                  '<a class="link-anm" href="http://plas.unal.edu.co/" target="_blank">PLaS</a> de la ' +
+                  '<a class="link-anm" href="https://unal.edu.co/" target="_blank">Universidad Nacional de Colombia</a>',
+            'index-login': 'Ingresar',
+            'index-register': 'Registrarse',
+            'index-title2': 'Múltiples entornos de evaluación',
+            'index-description2': 'Con UNCode puedes trabajar con múltiples lenguajes de programación ' +
                    'como Python, Java, C y C++. También, utiliza lenguajes de descripción de hardware como VHDL ' +
                    'y Verilog. Además, puedes desarrollar e interactuar con actividades propuestas en notebooks de ' +
                    'Jupyter. ',
-            'title3': 'Múltiples lenguajes de programación',
-            'title4': 'Integración con notebooks',
-            'title5': 'Lenguajes de Descripción de Hardware (HDL)',
-            'title6': 'Sistema de calificación automática',
-            'description3': 'UNCode posee un sistema de calificación automática de tareas de programación basado en ' +
+            'index-title3': 'Múltiples lenguajes de programación',
+            'index-title4': 'Integración con notebooks',
+            'index-title5': 'Lenguajes de Descripción de Hardware (HDL)',
+            'index-title6': 'Sistema de calificación automática',
+            'index-description3': 'UNCode posee un sistema de calificación automática de tareas de programación basado en ' +
                     '<a href="https://inginious.org/" target="_blank">INGInious</a>. Esto se hace de manera flexible, ' +
                     'segura, escalable y configurable para tus objetivos. Adicionalmente, feedback automático e inmediato ' +
                     'es entregado a los estudiantes. ',
-            'title7': 'Herramientas para los estudiantes',
-            'description4': 'UNCode apoya el proceso de aprendizaje de los estudiantes mediante la evaluación ' +
+            'index-title7': 'Herramientas para los estudiantes',
+            'index-description4': 'UNCode apoya el proceso de aprendizaje de los estudiantes mediante la evaluación ' +
                     'automática con retroalimentación inmediata. La realimentación es sumativa y formativa. La parte sumativa se le ' +
                     'informa a los estudiantes por medio de una calificación numérica. La realimentación formativa abarca ' +
                     'varios aspectos de la programación, donde destaca la sintaxis, semántica, mantenimiento de código y ' +
@@ -72,128 +66,138 @@ const indexMessages = {
                     'para hacer recomendaciones de buenas prácticas, visualizador de código en ejecución en ' +
                     '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a>, ' +
                     'entorno de pruebas de entrada y salida personalizables, plantillas de código para tareas de programación, entre otras. ',
-            'title8': 'Herramientas de monitoreo',
-            'description5': 'UNCode cuenta con un módulo generador de reportes estadísticos interactivos para' +
+            'index-title8': 'Herramientas de monitoreo',
+            'index-description5': 'UNCode cuenta con un módulo generador de reportes estadísticos interactivos para' +
                     'estudiantes y profesores.',
-            'title9': 'Herramientas para los profesores',
-            'description6': 'UNCode cuenta con un asistente para la creación fácil y automática de tareas, ' +
+            'index-title9': 'Herramientas para los profesores',
+            'index-description6': 'UNCode cuenta con un asistente para la creación fácil y automática de tareas, ' +
                     'banco de problemas de programación, un módulo de evaluación manual, generador de reportes ' +
                     'anti plagio, entre otras. '
         }
     }
 }
 
-const contributorsMessages = {
+const contributorsPageMessages = {
     'languages': {
         'en': {
-            '': '',
-            '': '',
-            '': '',
-            '': '',
+            'contributors-title1': 'UNCode | Contributors',
+            'contributors-header1': 'Contributors',
+            'contributors-role-systems-student': 'Computer and systems engineering student',
+            'contributors-role-systems-engineer': 'Computer and systems engineer',
+            'contributors-role-systems-master-student': 'Master`s degree in computer and systems engineering student',
+            'contributors-role-systems-phd-student': 'Ph.D. student in computer and systems engineering',
+            'contributors-role-electrical-professor': 'Associate Professor, Department of Electrical and Electric Engineering - Universidad Nacional de Colombia, Bogotá',
+            'contributors-role-systems-professor1': 'Associate Professor, Department of Systems and Industrial Engineering  - Universidad Nacional de Colombia, Bogotá',
+            'contributors-role-systems-professor2': 'Associate Professor, Department of Systems and Industrial Engineering  - Universidad Nacional de Colombia, Bogotá'
         },
         'es': {
-            '': '',
-            '': '',
-            '': '',
-            '': '',
+            'contributors-title1': 'UNCode | Contribuidores',
+            'contributors-header1': 'Contribuidores',
+            'contributors-role-systems-student': 'Estudiante de Ingeniería de Sistemas y Computación',
+            'contributors-role-systems-engineer': 'Ingeniero de Sistemas y Computación',
+            'contributors-role-systems-master-student': 'Estudiante de Maestría en Ingeniería de Sistemas y Computación',
+            'contributors-role-systems-phd-student': 'Estudiante de Doctorado en Ingeniería de Sistemas',
+            'contributors-role-electrical-professor': 'Profesor Asociado, Departamento de Ingeniería Eléctrica y Electrónica - Universidad Nacional de Colombia, Bogotá',
+            'contributors-role-systems-professor1': 'Profesor Asociado, Departamento de Ingeniería  de Sistemas e Industrial - Universidad Nacional de Colombia, Bogotá',
+            'contributors-role-systems-professor2': 'Profesor Titular, Departamento de Ingeniería  de Sistemas e Industrial - Universidad Nacional de Colombia, Bogotá'
         }
     }
 }
 
-const documentationMessages = {
+const documentationPageMessages = {
     'languages': {
         'en': {
-            'title1': 'UNCode | Documentation',
-            'menu-title1': 'Slides',
-            'menu-title2': 'Videos',
-            'presentations': 'Slides',
-            'generalities': 'Generalities',
-            'guides': 'User guides',
-            'animated-guides': 'Animated user guides <i class="icon ion-md-download ml-2"></i>',
-            'title2': 'Videos',
-            'title3': 'Videos for students',
-            'video-title1': 'How to do a multilang submission in UNCode?',
-            'video-title2': 'How to do a notebook submission in UNCode?',
-            'video-title3': 'How to use the custom input tool in UNCode?',
-            'video-title4': 'How to use the linter in UNCode?',
-            'video-title5': 'How to use Python tutor in UNCode?',
-            'video-title6': 'How to upload a project to UNCode?',
-            'title4': 'Videos for teachers',
-            'video-title7': 'How to create a new task in UNCode?',
-            'video-title8': 'How to create a notebook in UNCode?',
-            'video-title9': 'How to use the notebooks grader?',
-            'video-title10': 'How to create a test notebook for the notebooks grader?',
-            'video-title11': 'How to create a template for a task problem?',
-            'video-title12': 'How to create a problem type project?',
-            'video-title13': 'How to register students in a course using a .csv file?'
+            'documents-title1': 'UNCode | Documentation',
+            'documents-menu-title1': 'Slides',
+            'documents-menu-title2': 'Videos',
+            'documents-slides': 'Slides',
+            'documents-generalities': 'Generalities',
+            'documents-guides': 'User guides',
+            'documents-animated-guides': 'Animated user guides <i class="icon ion-md-download ml-2"></i>',
+            'documents-title2': 'Videos',
+            'documents-title3': 'Videos for students',
+            'documents-video-title1': 'How to do a multilang submission in UNCode?',
+            'documents-video-title2': 'How to do a notebook submission in UNCode?',
+            'documents-video-title3': 'How to use the custom input tool in UNCode?',
+            'documents-video-title4': 'How to use the linter in UNCode?',
+            'documents-video-title5': 'How to use Python tutor in UNCode?',
+            'documents-video-title6': 'How to upload a project to UNCode?',
+            'documents-title4': 'Videos for teachers',
+            'documents-video-title7': 'How to create a new task in UNCode?',
+            'documents-video-title8': 'How to create a notebook in UNCode?',
+            'documents-video-title9': 'How to use the notebooks grader?',
+            'documents-video-title10': 'How to create a test notebook for the notebooks grader?',
+            'documents-video-title11': 'How to create a template for a task problem?',
+            'documents-video-title12': 'How to create a problem type project?',
+            'documents-video-title13': 'How to register students in a course using a .csv file?'
         },
         'es': {
-            'title1': 'UNCode | Documentación',
-            'menu-title1': 'Presentaciones',
-            'menu-title2': 'Videos',
-            'presentations': 'Presentaciones',
-            'generalities': 'Generalidades',
-            'guides': 'Guía de uso',
-            'animated-guides': 'Guía de uso animada <i class="icon ion-md-download ml-2"></i>',
-            'title2': 'Videos',
-            'title3': 'Videos para estudiantes',
-            'video-title1': '¿Cómo hacer un submission multilenguaje en UNCode?',
-            'video-title2': '¿Cómo hacer la submission de un notebook en UNCode?',
-            'video-title3': '¿Cómo usar custom input en UNCode?',
-            'video-title4': '¿Cómo usar el linter en UNCode?',
-            'video-title5': '¿Cómo utilizar Python tutor en UNCode?',
-            'video-title6': '¿Cómo subir un proyecto a UNCode?',
-            'title4': 'Videos para profesores',
-            'video-title7': '¿Cómo crear una tarea en UNCode?',
-            'video-title8': '¿Cómo crear notebooks en UNCode?',
-            'video-title9': '¿Cómo usar el grader de los notebooks?',
-            'video-title10': '¿Cómo crear un notebook de prueba para el grader de notebooks?',
-            'video-title11': '¿Cómo crear una plantilla para un problema en UNCode?',
-            'video-title12': '¿Cómo crear una tarea tipo proyecto en UNCode?',
-            'video-title13': '¿Cómo registrar estudiantes en un curso con un archivo .csv?'
+            'documents-title1': 'UNCode | Documentación',
+            'documents-menu-title1': 'Presentaciones',
+            'documents-menu-title2': 'Videos',
+            'documents-presentations': 'Presentaciones',
+            'documents-generalities': 'Generalidades',
+            'documents-guides': 'Guía de uso',
+            'documents-animated-guides': 'Guía de uso animada <i class="icon ion-md-download ml-2"></i>',
+            'documents-title2': 'Videos',
+            'documents-title3': 'Videos para estudiantes',
+            'documents-video-title1': '¿Cómo hacer un submission multilenguaje en UNCode?',
+            'documents-video-title2': '¿Cómo hacer la submission de un notebook en UNCode?',
+            'documents-video-title3': '¿Cómo usar custom input en UNCode?',
+            'documents-video-title4': '¿Cómo usar el linter en UNCode?',
+            'documents-video-title5': '¿Cómo utilizar Python tutor en UNCode?',
+            'documents-video-title6': '¿Cómo subir un proyecto a UNCode?',
+            'documents-title4': 'Videos para profesores',
+            'documents-video-title7': '¿Cómo crear una tarea en UNCode?',
+            'documents-video-title8': '¿Cómo crear notebooks en UNCode?',
+            'documents-video-title9': '¿Cómo usar el grader de los notebooks?',
+            'documents-video-title10': '¿Cómo crear un notebook de prueba para el grader de notebooks?',
+            'documents-video-title11': '¿Cómo crear una plantilla para un problema en UNCode?',
+            'documents-video-title12': '¿Cómo crear una tarea tipo proyecto en UNCode?',
+            'documents-video-title13': '¿Cómo registrar estudiantes en un curso con un archivo .csv?'
         }
     }
 }
 
-const footerMessages = {
+const footerPageMessages = {
     'languages': {
         'en': {
-            'item1': '<a href="https://github.com/JuezUN" class="text-light" target="_blank">' +
+            'footer-item1': '<a href="https://github.com/JuezUN" class="text-light" target="_blank">' +
                      '<i class="icon ion-logo-github lead mr-3 align-middle"></i>GitHub - Organization</a>',
-            'item2': '<a href="https://github.com/JuezUN/INGInious/blob/master/LICENSE"' +
+            'footer-item2': '<a href="https://github.com/JuezUN/INGInious/blob/master/LICENSE"' +
                      'target="_blank" class="text-light">UNCode is under the GNU AGPL v3 license</a>',
-            'item3': 'Contributors'
+            'footer-item3': 'Contributors'
         },
         'es': {
-            'item1': '<a href="https://github.com/JuezUN" class="text-light" target="_blank">' +
+            'footer-item1': '<a href="https://github.com/JuezUN" class="text-light" target="_blank">' +
                      '<i class="icon ion-logo-github lead mr-3 align-middle"></i>GitHub - Organización</a>',
-            'item2': '<a href="https://github.com/JuezUN/INGInious/blob/master/LICENSE"' +
+            'footer-item2': '<a href="https://github.com/JuezUN/INGInious/blob/master/LICENSE"' +
                      'target="_blank" class="text-light">UNCode está bajo el licenciamiento GNU AGPL v3 </a>',
-            'item3': 'Contribuidores'
+            'footer-Zitem3': 'Contribuidores'
         }
     }
 }
 
-const headerMessages = {
+const headerPageMessages = {
     'languages': {
         'en': {
-            'item1': 'Home<span class="sr-only"></span>',
-            'item2': 'Documentation',
-            'item3': 'Repositories',
-            'item4': 'Publications',
-            'item5': 'Contributors',
-            'item6': 'Courses <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"' +
+            'header-item1': 'Home<span class="sr-only"></span>',
+            'header-item2': 'Documentation',
+            'header-item3': 'Repositories',
+            'header-item4': 'Papers',
+            'header-item5': 'Contributors',
+            'header-item6': 'Courses <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"' +
                      'fill="currentColor" xmlns="http://www.w3.org/2000/svg">' +
                      '<path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>' +
                      '</svg>'
         },
         'es': {
-            'item1': 'Inicio',
-            'item2': 'Documentación',
-            'item3': 'Repositorios',
-            'item4': 'Publicaciones',
-            'item5': 'Contribuidores',
-            'item6': 'Cursos <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"' +
+            'header-item1': 'Inicio',
+            'header-item2': 'Documentación',
+            'header-item3': 'Repositorios',
+            'header-item4': 'Publicaciones',
+            'header-item5': 'Contribuidores',
+            'header-item6': 'Cursos <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"' +
                      'fill="currentColor" xmlns="http://www.w3.org/2000/svg">' +
                      '<path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>' +
                      '</svg>'
@@ -201,32 +205,32 @@ const headerMessages = {
     }
 }
 
-const publicationsMessages = {
+const publicationsPageMessages = {
     'languages': {
         'en': {
-            'title1': 'UNCode | Publications',
-            'header1': 'Papers',
-            'item-site': 'Go to the paper site',
-            'item-download': 'Download slides',
-            'item-quote': 'How to quote'
+            'publications-title1': 'UNCode | Papers',
+            'publications-header1': 'Papers',
+            'publications-item-site': 'Go to the paper site',
+            'publications-item-download': 'Download slides',
+            'publications-item-quote': 'How to quote'
         },
         'es': {
-            'title1': 'UNCode | Publicaciones',
-            'header1': 'Publicaciones',
-            'item-site': 'Ir al documento',
-            'item-download': 'Descargar presentación',
-            'item-quote': 'Cómo Citar'
+            'publications-title1': 'UNCode | Publicaciones',
+            'publications-header1': 'Publicaciones',
+            'publications-item-site': 'Ir al documento',
+            'publications-item-download': 'Descargar presentación',
+            'publications-item-quote': 'Cómo Citar'
         }
     }
 }
 
-const repositoriesMessages = {
+const repositoriesPageMessages = {
     'languages': {
         'en': {
-            'title1': 'UNCode | Repositorios',
-            'header1': 'Repositories',
-            'description1': 'You can see the used repositories below.',
-            'github': 'Go to GitHub',
+            'repositories-title1': 'UNCode | Repositorios',
+            'repositories-header1': 'Repositories',
+            'repositories-description1': 'You can see the used repositories below.',
+            'repositories-github': 'Go GitHub',
             'repository1-description1': 'This is the main UNCode repository',
             'repository1-description2': 'UNCode is an online platform - developed on ' +
                                         '<a href="https://github.com/UCL-INGI/INGInious" target="_blank">INGIniois (v0.5)</a>' +
@@ -250,7 +254,7 @@ const repositoriesMessages = {
             'repository2-description1': 'This repository contains the necessary scripts to do the automatic deployment' +
                                         'of UNCode with all its features',
             'repository3-description1': 'This repository have the containers used for the execution and evaluation of the UNCode ' +
-                                        'code available in<a href="https://hub.docker.com/u/unjudge" target="_blank">Docker Hub.</a>',
+                                        'code available in <a href="https://hub.docker.com/u/unjudge" target="_blank">Docker Hub.</a>',
             'repository3-description2': 'Only some of these containers are used in UNCode, the remaining containers are used for ' +
                                         '<a href="https://github.com/UCL-INGI/INGInious-containers" target="_blank">INGInious-containers</a>. ' +
                                         'We will only explain the cointaners developed by us.',
@@ -268,8 +272,8 @@ const repositoriesMessages = {
             'repository5-description1': 'This repository contains the code that is in charge of offer the "linting" ' +
                                         'service in UNCode, through a container found in ' +
                                         '<a href="https://hub.docker.com/u/unjudge" target="_blank">Docker Hub</a> ' +
-                                        'on the repository. ' +
-                                        '<a href="https://hub.docker.com/r/unjudge/linter-web-service" target="_blank">unjudge/linter-web-service</a>. ' +
+                                        'on the ' +
+                                        '<a href="https://hub.docker.com/r/unjudge/linter-web-service" target="_blank">unjudge/linter-web-service</a> repository. ' +
                                         'This service helps students by showing them the possible programming errors or ' +
                                         'bad practicies that they have.',
             'repository6-description1': 'Cola-bears is a Python package that contains all the ' +
@@ -282,13 +286,13 @@ const repositoriesMessages = {
                                         'and the fixes that can be made to the code.',
             'repository7-description1': 'In this repository you can find different test to apply to UNCode.',
             'repository7-description2': 'From these tests we have<em>load testing</em>. ' +
-                                        'Esta prueba consiste en ver This test is a visualization and a measuring of the server behavior when many users ' +
+                                        'This test is a visualization and a measuring of the server behavior when many users ' +
                                         'are trying to use UNCode at the same time. This can include log in, go to the task page ' +
                                         'and submitting. This test is done with <b>JMeter</b>, testing different workflows such ' +
                                         'as the performance or notebooks sending,',
             'repository8-description1': 'This repository contains the backend of C / C++ for ' +
                                         '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Online Python ' +
-                                        'Tutor</a>. We have made a <em>fork</em>to this repository to add some necessary ' +
+                                        'Tutor</a>. We have made a <em>fork</em> to this repository to add some necessary ' +
                                         'modifications for our purposes, and provide the "Python tutor" service properly.',
             'repository8-description2': 'The repository code was developed using <em>Docker stored</em> on Doker Hub: ' +
                                         '<a href="https://hub.docker.com/r/unjudge/opt-cpp-backend" target="_blank">unjudge/opt-cpp-backend</a>, ' +
@@ -296,10 +300,10 @@ const repositoriesMessages = {
             'repository-button': 'Repository'
         },
         'es': {
-            'title1': 'UNCode | Repositorios',
-            'header1': 'Repositorios',
-            'description1': 'A continuación se describen los repositorios utilizados',
-            'github': 'Ir a GitHub',
+            'repositories-title1': 'UNCode | Repositorios',
+            'repositories-header1': 'Repositorios',
+            'repositories-description1': 'A continuación se describen los repositorios utilizados',
+            'repositories-github': 'Ir a GitHub',
             'repository1-description1': 'Es el repositorio principal de UNCode.',
             'repository1-description2': 'UNCode es una plataforma online —desarrollada sobre ' +
                                         '<a href="https://github.com/UCL-INGI/INGInious" target="_blank">INGIniois (v0.5)</a>— ' +
@@ -370,15 +374,52 @@ const repositoriesMessages = {
     }
 }
 
-
-function changeLanguage(language){
+function changeLanguage(messagesDictionary,language){
     let elements = $("[data-key]");
     elements.each(function(){
-        let message = repositoriesMessages['languages'][language][$(this).data("key")]
+        let message = messagesDictionary['languages'][language][$(this).data("key")]
         $(this).html(message);
-    })
+    });
 }
 
+/*Change lenguage of a page*/
+function changeByPage(language, pageName){
+   switch(pageName){
+        case "index.html":
+             changeLanguage(indexPageMessages,language);
+             break;
+        case "contributors.html":
+             changeLanguage(contributorsPageMessages,language);
+             break;
+        case "documentation.html":
+             changeLanguage(documentationPageMessages,language);
+             break;
+        case "publications.html":
+             changeLanguage(publicationsPageMessages,language);
+             break;
+        case "repositories.html":
+             changeLanguage(repositoriesPageMessages,language);
+             break;
+        default:
+             break;
+   }
+   console.log(pageName);
+};
+
+/*Change language on current page*/
+function changePageMessages(language){
+
+   let pageLocation = window.location.pathname;
+   let pageName = pageLocation.substring(pageLocation.lastIndexOf('/') + 1);
+
+   changeByPage(language, pageName);
+};
+
+/*Update language on current page when reload*/
 $(function(){
-    changeLanguage("en");
+   let language = $("#language-selector")[0].value;
+   let pageLocation = window.location.pathname;
+   let pageName = pageLocation.substring(pageLocation.lastIndexOf('/') + 1);
+
+   changeByPage(language, pageName);
 });

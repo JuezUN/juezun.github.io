@@ -14,26 +14,26 @@
             <ul class="navbar-nav ml-auto" id="nav-list">
 
                 <li class="nav-item" id="nav-index">
-                    <a data-key="item1" class="nav-link" href="../index.html" id="home-tap">Home<span class="sr-only"></span></a>
+                    <a data-key="header-item1" class="nav-link" href="../index.html" id="home-tap">Home<span class="sr-only"></span></a>
                 </li>
 
                 <li class="nav-item" id="nav-documentation">
-                    <a data-key="item2" class="nav-link" href="documentation.html" id="documentation-tap">Documentation</a>
+                    <a data-key="header-item2" class="nav-link" href="documentation.html" id="documentation-tap">Documentation</a>
                 </li>
 
                 <li class="nav-item" id="nav-repositories">
-                    <a data-key="item3" class="nav-link" href="repositories.html" id="repositories-tap">Repositories
+                    <a data-key="header-item3" class="nav-link" href="repositories.html" id="repositories-tap">Repositories
                     </a>
                 </li>
                 <li class="nav-item" id="nav-publications">
-                    <a data-key="item4" class="nav-link" href="publications.html" id="publications-tap">Publications
+                    <a data-key="header-item4" class="nav-link" href="publications.html" id="publications-tap">Papers
                     </a>
                 </li>
                 <li class="nav-item" id="nav-contributors">
-                    <a data-key="item5" class="nav-link" href="contributors.html" id="contributors-tap">Contributors</a>
+                    <a data-key="header-item5" class="nav-link" href="contributors.html" id="contributors-tap">Contributors</a>
                 </li>
                 <li class="nav-item" id="nav-classroom">
-                    <a data-key="item6" class="nav-link" href="https://uncode.unal.edu.co/courselist" target="_blank" id="class-tap">
+                    <a data-key="header-item6" class="nav-link" href="https://uncode.unal.edu.co/courselist" target="_blank" id="class-tap">
                         Courses
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"
                              fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -41,6 +41,12 @@
                                   d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
                         </svg>
                     </a>
+                </li>
+                <li>
+                    <select onchange="changePageMessages()" id="language-selector">
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                    </select>
                 </li>
             </ul>
         </div>
