@@ -382,7 +382,7 @@ function changeLanguage(messagesDictionary,language){
     });
 }
 
-/*Change lenguage of a page*/
+/*Change lenguage of a page by dictionary*/
 function changeByPage(language, pageName){
    switch(pageName){
         case "index.html":
@@ -403,7 +403,6 @@ function changeByPage(language, pageName){
         default:
              break;
    }
-   console.log(pageName);
 };
 
 /*Change language on current page*/
@@ -413,13 +412,13 @@ function changePageMessages(language){
    let pageName = pageLocation.substring(pageLocation.lastIndexOf('/') + 1);
 
    changeByPage(language, pageName);
+   changeLanguage(footerPageMessages,language);
+   changeLanguage(headerPageMessages,language);
+   changeDropdownLanguage(language);
+
 };
 
-/*Update language on current page when reload*/
-$(function(){
-   let language = $("#language-selector")[0].value;
-   let pageLocation = window.location.pathname;
-   let pageName = pageLocation.substring(pageLocation.lastIndexOf('/') + 1);
-
-   changeByPage(language, pageName);
-});
+//Change text on dropdown
+function changeDropdownLanguage(language){
+    $("#language-dropdown a")[0].innerText = language;
+}

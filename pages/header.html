@@ -42,11 +42,13 @@
                         </svg>
                     </a>
                 </li>
-                <li>
-                    <select onchange="changePageMessages()" id="language-selector">
-                        <option value="en">EN</option>
-                        <option value="es">ES</option>
-                    </select>
+                <li class="dropdown" id="language-dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown">en<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li onclick="changePageMessages('en')">en</li>
+                        <li onclick="changePageMessages('es')">es</li>
+                    </ul>
                 </li>
             </ul>
         </div>
