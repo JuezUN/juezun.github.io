@@ -187,3 +187,11 @@ a.disabled {
     color: var(--grey);
 }
 
+.dropdown-menu{
+    min-width: 4rem;
+}
+
+.dropdown li a{
+    padding: 0 10px;
+    color: grey;
+}
