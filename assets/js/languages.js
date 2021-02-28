@@ -45,8 +45,7 @@ function changePageMessages(language){
 
 //Change option on dropdown
 function changeDropdownLanguage(language){
-    $("#language-dropdown li a").each(function(){
-        console.log($(this)[0]);
+    $("#language-dropdown li").each(function(){
         if($(this)[0].innerText == language){
             $("#language-dropdown a")[0].innerHTML = $(this)[0].innerHTML;
         }

@@ -188,10 +188,15 @@ a.disabled {
 }
 
 .dropdown-menu{
-    min-width: 4rem;
+    min-width: 4.5rem;
 }
 
-.dropdown li a{
+.dropdown li{
     padding: 0 10px;
     color: grey;
+}
+
+.dropdown li:hover{
+    cursor: pointer;
+    color: var(--dark);
 }
