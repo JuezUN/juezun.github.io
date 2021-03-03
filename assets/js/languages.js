@@ -51,3 +51,11 @@ function changeDropdownLanguage(language){
         }
     });
 }
+
+function setInitialLanguage(){
+    let language = localStorage.getItem("lang");
+    if(!language){
+        language = 'en';
+    }
+    changePageMessages(language);
+}

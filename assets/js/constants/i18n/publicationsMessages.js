@@ -1,8 +1,8 @@
 const publicationsPageMessages = {
     'languages': {
         'en': {
-            'publications-title1': 'UNCode | Papers',
-            'publications-header1': 'Papers',
+            'publications-title1': 'UNCode | Publications',
+            'publications-header1': 'Publications',
             'publications-item-site': 'Go to the paper site',
             'publications-item-download': 'Download slides',
             'publications-item-quote': 'How to quote'

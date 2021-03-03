@@ -14,27 +14,27 @@ const indexPageMessages = {
                   'Verilog and VHDL, and do suggested activities in ' +
                   'Jupyter notebooks. ',
             'index-title3': 'Multiple programming languages',
-            'index-title4': 'Notebooks integration',
+            'index-title4': 'Jupyter Notebooks automatic grading',
             'index-title5': 'Hardware Description Languages (HDL)',
             'index-title6': 'Automatic grading system',
-            'index-description3': 'UNCode has a tasks automatic grading system based on ' +
+            'index-description3': 'UNCode has a grading system for programming tasks based on ' +
                     '<a href="https://inginious.org/" target="_blank">INGInious</a>, which is done in ' +
-                    'a flexible, secure, scalable and configurable way for your goals. Also UNCode sends an ' +
-                    'automatic feedback to the student when a submssion is made.',
+                    'a flexible, secure, scalable and configurable way for your goals. Also, UNCode returns an ' +
+                    'automatic feedback to the student when a submission is made.',
             'index-title7': 'Tools for the students',
-            'index-description4': 'UNCode helps to the students learning process through a automatic grading with ' +
-                    'a feedback. This feedback is both summative and formative. The summative feedback part is given to ' +
+            'index-description4': 'UNCode helps students in the learning process through an automatic grading system and ' +
+                    'feedback. This feedback is both summative and formative. The summative feedback part is given to ' +
                     'the students through a numerical grade. The formative part deals with programming concepts related ' +
-                    'to sintax, semantics, code maintenance, and performing custom tests. UNCode have a ' +
-                    '<a href="https://en.wikipedia.org/wiki/Lint_(software)" target="_blank">linter</a> ' +
-                    'to check student code and make suggestions for good practices, a running code visualizer in ' +
-                    '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a> ,' +
-                    'a customizable input and output tests environment, code templates for programming tasks, etc.',
+                    'to syntax, semantics, code maintenance, and performing custom tests. UNCode has a ' +
+                    '<a href="https://en.wikipedia.org/wiki/Lint_(software)" target="_blank">Linter</a> ' +
+                    'to check student code and make suggestions related to good coding practices. Additionally, UNCode has a running code visualizer using ' +
+                    '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a>,' +
+                    'a custom input and output test environment, code templates for programming tasks, etc.',
             'index-title8': 'Monitoring tools',
-            'index-description5': 'UNCode has an interactive statistics report generator module for teachers and students.',
-            'index-title9': 'Teachers tools',
-            'index-description6':'UNCode have an assistant for the easy and automatic creation of the tasks, ' +
-                    'a programming problem bank, a manual grading module, a plagiarism report generator, etc.'
+            'index-description5': 'UNCode has an interactive statistics report generator for instructors and students.',
+            'index-title9': 'Instructor\'s tools',
+            'index-description6':'UNCode has an assistant to automatically create and set up the tasks, ' +
+                    'a problem bank module, manual grading module, plagiarism report generator, among other tools.'
         },
         'es': {
             'index-title1': 'UNCode: <br> Un entorno para el aprendizaje y evaluación automática de ejercicios de programación',
@@ -62,7 +62,7 @@ const indexPageMessages = {
                     'informa a los estudiantes por medio de una calificación numérica. La realimentación formativa abarca ' +
                     'varios aspectos de la programación, donde destaca la sintaxis, semántica, mantenimiento de código y ' +
                     'realización de pruebas personalizadas. Para esto cuenta con un ' +
-                    '<a href="https://en.wikipedia.org/wiki/Lint_(software)" target="_blank">linter</a> ' +
+                    '<a href="https://en.wikipedia.org/wiki/Lint_(software)" target="_blank">Linter</a> ' +
                     'para hacer recomendaciones de buenas prácticas, visualizador de código en ejecución en ' +
                     '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a>, ' +
                     'entorno de pruebas de entrada y salida personalizables, plantillas de código para tareas de programación, entre otras. ',

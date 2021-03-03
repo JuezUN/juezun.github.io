@@ -4,7 +4,7 @@ const headerPageMessages = {
             'header-item1': 'Home<span class="sr-only"></span>',
             'header-item2': 'Documentation',
             'header-item3': 'Repositories',
-            'header-item4': 'Papers',
+            'header-item4': 'Publications',
             'header-item5': 'Contributors',
             'header-item6': 'Courses <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right"' +
                      'fill="currentColor" xmlns="http://www.w3.org/2000/svg">' +
