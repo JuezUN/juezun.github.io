@@ -43,7 +43,7 @@ function changePageMessages(language){
    localStorage.setItem("lang",language);
 };
 
-//Change option on dropdown
+/*Change option on dropdown*/
 function changeDropdownLanguage(language){
     $("#language-dropdown li").each(function(){
         if($(this)[0].innerText == language){
@@ -52,6 +52,7 @@ function changeDropdownLanguage(language){
     });
 }
 
+/*Set the initial languages on the page for the messages*/
 function setInitialLanguage(){
     let language = localStorage.getItem("lang");
     if(!language){
