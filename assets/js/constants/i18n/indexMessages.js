@@ -11,7 +11,7 @@ const indexPageMessages = {
             'index-description2': 'You can work in UNCode with multiple programming ' +
                   'languages such as Python, Java, C and C++. Also, ' +
                   'you can use hardware description languages like ' +
-                  'Verilog and VHDL, and do suggested activities in ' +
+                  'Verilog and VHDL. Additionally, you are able to interact and solve tasks using ' +
                   'Jupyter notebooks. ',
             'index-title3': 'Multiple programming languages',
             'index-title4': 'Jupyter Notebooks automatic grading',
@@ -22,14 +22,14 @@ const indexPageMessages = {
                     'a flexible, secure, scalable and configurable way for your goals. Also, UNCode returns an ' +
                     'automatic feedback to the student when a submission is made.',
             'index-title7': 'Tools for the students',
-            'index-description4': 'UNCode helps students in the learning process through an automatic grading system and ' +
-                    'feedback. This feedback is both summative and formative. The summative feedback part is given to ' +
+            'index-description4': 'UNCode helps students in the learning process through an automatic grading system, as well as ' +
+                    'automatic feedback; being both: summative and formative. The summative feedback part is given to ' +
                     'the students through a numerical grade. The formative part deals with programming concepts related ' +
                     'to syntax, semantics, code maintenance, and performing custom tests. UNCode has a ' +
                     '<a href="https://en.wikipedia.org/wiki/Lint_(software)" target="_blank">Linter</a> ' +
-                    'to check student code and make suggestions related to good coding practices. Additionally, UNCode has a running code visualizer using ' +
+                    'to check student\'s code and make suggestions related to good coding practices. Additionally, UNCode has a running code visualizer using ' +
                     '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a>,' +
-                    'a custom input and output test environment, code templates for programming tasks, etc.',
+                    'a custom input and output test environment, code templates for programming tasks, among others.',
             'index-title8': 'Monitoring tools',
             'index-description5': 'UNCode has an interactive statistics report generator for instructors and students.',
             'index-title9': 'Instructor\'s tools',

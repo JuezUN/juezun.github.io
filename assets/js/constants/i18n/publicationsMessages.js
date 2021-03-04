@@ -5,7 +5,7 @@ const publicationsPageMessages = {
             'publications-header1': 'Publications',
             'publications-item-site': 'Go to the paper site',
             'publications-item-download': 'Download slides',
-            'publications-item-quote': 'How to quote'
+            'publications-item-quote': 'How to cite'
         },
         'es': {
             'publications-title1': 'UNCode | Publicaciones',

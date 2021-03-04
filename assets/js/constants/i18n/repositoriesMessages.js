@@ -3,14 +3,14 @@ const repositoriesPageMessages = {
         'en': {
             'repositories-title1': 'UNCode | Repositories',
             'repositories-header1': 'Repositories',
-            'repositories-description1': 'The used repositories are listed below.',
+            'repositories-description1': 'The UNCode repositories are listed below.',
             'repositories-github': 'Go to GitHub',
             'repository1-description1': 'This is the main repository of UNCode',
             'repository1-description2': 'UNCode is an online platform, developed on ' +
                                         '<a href="https://github.com/UCL-INGI/INGInious" target="_blank">INGIniois (v0.5)</a>, ' +
                                         'to practice programming exercises and automatically grade ' +
                                         'code made by the students to help them in their learning processes.',
-            'repository1-description3': 'UNCode is actually used by the Universidad Nacional de Colombia, ' +
+            'repository1-description3': 'UNCode is currently used by the Universidad Nacional de Colombia, ' +
                                         'Bogotá campus, to evaluate the written code by the students in multiple programming ' +
                                         'languages such as C, C ++, Java and Python 3; also, the UNCode judge can be used in hardware ' +
                                         'description languages such as VHDL and Verilog, or in Jupyter Notebooks tasks. ' +
@@ -20,7 +20,7 @@ const repositoriesPageMessages = {
             'repository1-description4': 'UNCode has a Backend that handles the interaction with Docker and ' +
                                         'the grader; a Frontend where the students can upload their code in a simple and ' +
                                         'pleasant interface. Also, the Frontend includes an administrator interface to allow ' +
-                                        'instructors and tutors to check the students progress and modify the tasks in a simple way.',
+                                        'instructors and tutors to check the student\'s progress and modify the tasks in a simple way.',
             'repository1-description5': 'Both backend and frontend are independent of each other. The backend, ' +
                                         'in particular, has been created to be used as if it was a library.',
             'repository1-description6': 'Another interesting feature of UNCode is that it can be used as an external grader for ' +
@@ -30,15 +30,15 @@ const repositoriesPageMessages = {
             'repository3-description1': 'This repository has the containers used for the execution and evaluation of the submissions. ' +
                                         'you can find these containers on <a href="https://hub.docker.com/u/unjudge" target="_blank">Docker Hub.</a>',
             'repository3-description2': 'Only some of these containers are used on UNCode, the remaining containers are developed by ' +
-                                        '<a href="https://github.com/UCL-INGI/INGInious-containers" target="_blank">INGInious</a>, which are not used on UNCode' +
-                                        'Only the cointaners developed by us are explained here.',
+                                        '<a href="https://github.com/UCL-INGI/INGInious-containers" target="_blank">INGInious</a>, which are not used on UNCode.' +
+                                        'Only the containers developed by us are explained here.',
             'repository4-description1': 'Python tutor is a tool that helps the students to pass one of ' +
-                                        'the most important barriers on the programming learning processes: Understand what ' +
+                                        'the most important barriers on the programming learning processes: to understand what ' +
                                         'is happening in their code. This tool allows the student to visualize step by step, ' +
                                         'the code behavior in the different languages such as Python, Java, ' +
                                         'C or C++ in web browsers.',
             'repository4-description2': 'Some modifications to the original code were made in this repository, ' +
-                                        'with the purpose of making this component as a Docker service in order to be embedded in ' +
+                                        'with the purpose of making this component a Docker service in order to be embedded in ' +
                                         'the UNCode interface, and then allow users to visualize code on Python 3, Java, C and C++. ',
             'repository4-description3': 'The Python Tutor project was created by <a href="https://pg.ucsd.edu/" target="_blank">Philip Guo</a>' +
                                         'in January 2010. You can see the <a href="https://github.com/JuezUN/OnlinePythonTutor/blob/master/history.txt"' +
@@ -46,7 +46,7 @@ const repositoriesPageMessages = {
             'repository5-description1': 'This repository contains the code that is in charge of offering the "linting" ' +
                                         'service on UNCode, through a container (found in ' +
                                         '<a href="https://hub.docker.com/u/unjudge" target="_blank">Docker Hub</a>) ' +
-                                        'an the code is located in the ' +
+                                        'and the code is located in the ' +
                                         '<a href="https://hub.docker.com/r/unjudge/linter-web-service" target="_blank">unjudge/linter-web-service</a> repository. ' +
                                         'This service helps students by showing them the possible programming errors or ' +
                                         'bad practices they may have while coding.',
