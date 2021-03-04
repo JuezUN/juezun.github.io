@@ -25,12 +25,12 @@ const repositoriesPageMessages = {
                                         'in particular, has been created to be used as if it was a library.',
             'repository1-description6': 'Another interesting feature of UNCode is that it can be used as an external grader for ' +
                                         'Learning Management Systems (LMS), such as Moodle or OpenEDX.',
-            'repository2-description1': 'This repository contains the necessary scripts to do the automatic deployment' +
-                                        'of UNCode with all its features',
+            'repository2-description1': 'This repository contains the necessary scripts to do the automatic deployment ' +
+                                        'of UNCode with all its features.',
             'repository3-description1': 'This repository has the containers used for the execution and evaluation of the submissions. ' +
                                         'you can find these containers on <a href="https://hub.docker.com/u/unjudge" target="_blank">Docker Hub.</a>',
             'repository3-description2': 'Only some of these containers are used on UNCode, the remaining containers are developed by ' +
-                                        '<a href="https://github.com/UCL-INGI/INGInious-containers" target="_blank">INGInious</a>, which are not used on UNCode.' +
+                                        '<a href="https://github.com/UCL-INGI/INGInious-containers" target="_blank">INGInious</a>, which are not used on UNCode. ' +
                                         'Only the containers developed by us are explained here.',
             'repository4-description1': 'Python tutor is a tool that helps the students to pass one of ' +
                                         'the most important barriers on the programming learning processes: to understand what ' +
@@ -40,8 +40,8 @@ const repositoriesPageMessages = {
             'repository4-description2': 'Some modifications to the original code were made in this repository, ' +
                                         'with the purpose of making this component a Docker service in order to be embedded in ' +
                                         'the UNCode interface, and then allow users to visualize code on Python 3, Java, C and C++. ',
-            'repository4-description3': 'The Python Tutor project was created by <a href="https://pg.ucsd.edu/" target="_blank">Philip Guo</a>' +
-                                        'in January 2010. You can see the <a href="https://github.com/JuezUN/OnlinePythonTutor/blob/master/history.txt"' +
+            'repository4-description3': 'The Python Tutor project was created by <a href="https://pg.ucsd.edu/" target="_blank">Philip Guo</a> ' +
+                                        'in January 2010. You can see the <a href="https://github.com/JuezUN/OnlinePythonTutor/blob/master/history.txt" ' +
                                         'target="_blank">project history.</a>',
             'repository5-description1': 'This repository contains the code that is in charge of offering the "linting" ' +
                                         'service on UNCode, through a container (found in ' +
@@ -63,7 +63,7 @@ const repositoriesPageMessages = {
                                         'This test is a visualization and a measuring of the server behavior when many users ' +
                                         'are trying to use UNCode at the same time. This can include log in, go to the task page ' +
                                         'and submitting. This test is done with <b>JMeter</b>, testing different workflows such ' +
-                                        'as the performance or notebooks submissions,',
+                                        'as the performance or notebooks submissions.',
             'repository8-description1': 'This repository contains the backend of C / C++ for ' +
                                         '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Online Python ' +
                                         'Tutor</a>. We have made a <em>fork</em> to this repository to add some necessary ' +
@@ -115,7 +115,7 @@ const repositoriesPageMessages = {
                                         'de que este componente fuera un servicio de Docker para poder ser embebido en la ' +
                                         'interfaz de UNCode, y así permitir a los usuarios visualizar código escrito en Python 3, ' +
                                         'C/C++ y Java. ',
-            'repository4-description3': 'El proyecto de Python tutor fue creado por <a href="https://pg.ucsd.edu/" target="_blank">Philip Guo</a>' +
+            'repository4-description3': 'El proyecto de Python tutor fue creado por <a href="https://pg.ucsd.edu/" target="_blank">Philip Guo</a> ' +
                                         'en enero del 2010. Aquí puedes ver la <a href="https://github.com/JuezUN/OnlinePythonTutor/blob/master/history.txt" ' +
                                         'target="_blank">historia del proyecto.</a>',
             'repository5-description1': 'Este repositorio contiene el código encargado de ofrecer el servicio de “linting” en ' +

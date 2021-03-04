@@ -28,7 +28,7 @@ const indexPageMessages = {
                     'to syntax, semantics, code maintenance, and performing custom tests. UNCode has a ' +
                     '<a href="https://en.wikipedia.org/wiki/Lint_(software)" target="_blank">Linter</a> ' +
                     'to check student\'s code and make suggestions related to good coding practices. Additionally, UNCode has a running code visualizer using ' +
-                    '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a>,' +
+                    '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a>, ' +
                     'a custom input and output test environment, code templates for programming tasks, among others.',
             'index-title8': 'Monitoring tools',
             'index-description5': 'UNCode has an interactive statistics report generator for instructors and students.',
@@ -67,7 +67,7 @@ const indexPageMessages = {
                     '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a>, ' +
                     'entorno de pruebas de entrada y salida personalizables, plantillas de código para tareas de programación, entre otras. ',
             'index-title8': 'Herramientas de monitoreo',
-            'index-description5': 'UNCode cuenta con un módulo generador de reportes estadísticos interactivos para' +
+            'index-description5': 'UNCode cuenta con un módulo generador de reportes estadísticos interactivos para ' +
                     'estudiantes y profesores.',
             'index-title9': 'Herramientas para los profesores',
             'index-description6': 'UNCode cuenta con un asistente para la creación fácil y automática de tareas, ' +
