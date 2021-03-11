@@ -6,13 +6,13 @@ const repositoriesPageMessages = {
             'repositories-description1': 'The UNCode repositories are listed below.',
             'repositories-github': 'Go to GitHub',
             'repository1-description1': 'This is the main repository of UNCode',
-            'repository1-description2': 'UNCode is an online platform, developed on ' +
-                                        '<a href="https://github.com/UCL-INGI/INGInious" target="_blank">INGIniois (v0.5)</a>, ' +
+            'repository1-description2': 'UNCode is an online platform, developed on top of ' +
+                                        '<a href="https://github.com/UCL-INGI/INGInious" target="_blank">INGInious (v0.5)</a>, ' +
                                         'to practice programming exercises and automatically grade ' +
                                         'code made by the students to help them in their learning processes.',
             'repository1-description3': 'UNCode is currently used by the Universidad Nacional de Colombia, ' +
                                         'Bogotá campus, to evaluate the written code by the students in multiple programming ' +
-                                        'languages such as C, C ++, Java and Python 3; also, the UNCode judge can be used in hardware ' +
+                                        'languages such as C, C++, Java and Python 3; also, the UNCode judge can be used in hardware ' +
                                         'description languages such as VHDL and Verilog, or in Jupyter Notebooks tasks. ' +
                                         'For that reason, UNCode has been used in different courses in the university: ' +
                                         'Basic computer programming, Data structures, Machine learning, Programming languages, ' +
@@ -59,7 +59,7 @@ const repositoriesPageMessages = {
                                         'that contains information about each "bear", such as the supported languages, ' +
                                         'and the fixes that can be made to the code.',
             'repository7-description1': 'In this repository you can find different tests like load testing to apply on UNCode.',
-            'repository7-description2': 'From these tests we have<em>load testing</em>. ' +
+            'repository7-description2': 'From these tests we have <em>load testing</em>. ' +
                                         'This test is a visualization and a measuring of the server behavior when many users ' +
                                         'are trying to use UNCode at the same time. This can include log in, go to the task page ' +
                                         'and submitting. This test is done with <b>JMeter</b>, testing different workflows such ' +
@@ -80,7 +80,7 @@ const repositoriesPageMessages = {
             'repositories-github': 'Ir a GitHub',
             'repository1-description1': 'Es el repositorio principal de UNCode.',
             'repository1-description2': 'UNCode es una plataforma online, desarrollada sobre ' +
-                                        '<a href="https://github.com/UCL-INGI/INGInious" target="_blank">INGIniois (v0.5)</a>, ' +
+                                        '<a href="https://github.com/UCL-INGI/INGInious" target="_blank">INGInious (v0.5)</a>, ' +
                                         'para practicar programación y realizar evaluación automática de código escrito por estudiantes, de ' +
                                         'forma que apoye su proceso de aprendizaje.',
             'repository1-description3': 'Actualmente la plataforma es usada en la Universidad Nacional de Colombia, sede Bogotá, ' +
