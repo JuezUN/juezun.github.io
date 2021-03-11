@@ -9,6 +9,9 @@ function changeLanguage(messagesDictionary,language){
 /*Change lenguage of a page by dictionary*/
 function changeByPage(language, pageName){
    switch(pageName){
+        case "":    //Case for root page
+             changeLanguage(indexPageMessages,language);
+             break;
         case "index.html":
              changeLanguage(indexPageMessages,language);
              break;
