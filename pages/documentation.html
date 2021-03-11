@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNCode | Documentación</title>
+    <title data-key="documents-title1"></title>
     <!-- Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -13,6 +13,8 @@
     <!--IonIcon-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--MDBootstrap-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
     <!--Favicon-->
     <link rel="icon" href="../assets/img/logo_simp.svg" type="image/svg+xml"/>
     <!--Style-->
@@ -21,6 +23,10 @@
 
     <script src="../assets/js/documentation.js" type="module"></script>
     <script src="../assets/js/general.js" type="module"></script>
+    <script src="../assets/js/constants/i18n/documentationMessages.js"></script>
+    <script src="../assets/js/constants/i18n/headerMessages.js"></script>
+    <script src="../assets/js/constants/i18n/footerMessages.js"></script>
+    <script src="../assets/js/languages.js"></script>
 
 </head>
 
@@ -34,10 +40,10 @@
     <div class="container link-dark">
         <ul class="nav justify-content-end" role="tablist">
             <li class="nav-item">
-                <a class="nav-link" href="#" id="presentation">Presentaciones</a>
+                <a data-key="documents-menu-title1" class="nav-link" href="#" id="presentation"></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" id="videos">Videos</a>
+                <a data-key="documents-menu-title2" class="nav-link" href="#" id="videos"></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/JuezUN/INGInious/wiki" target="_blank">UNCode Wiki
@@ -70,15 +76,14 @@
                 </div>
                 <div class="col-xl-3 col-md-3 link-dark">
                     <div class="logo ml-auto text-center border-bottom">
-                        <h4>Presentaciones</h4>
+                        <h4 data-key="documents-slides"></h4>
                     </div>
                     <ul class="list-unstyled px-3" id="pdf-list">
-                        <li><a href="#" id="generalities"><h5> Generalidades</h5></a></li>
-                        <li><a href="#" id="guide-1"><h5>Guía de uso</h5></a></li>
+                        <li><a href="#" id="generalities"><h5 data-key="documents-generalities"></h5></a></li>
+                        <li><a href="#" id="guide-1"><h5 data-key="documents-guides"></h5></a></li>
                         <div id="noCollapse">
                             <li><a href="../assets/resources/UNCode%20-%20guía%20de%20uso.ppsx"
-                                   download="UNCode - guía de uso" id="uncode-slides"><h5> Guía de uso animada <i
-                                    class="icon ion-md-download ml-2"></i></h5></a></li>
+                                   download="UNCode - guía de uso" id="uncode-slides"><h5 data-key="documents-animated-guides"></h5></a></li>
                         </div>
 
                     </ul>
@@ -157,63 +162,55 @@
                 </div>
                 <div class="col-xl-3 col-md-3 link-dark">
                     <div class="logo ml-auto text-center border-bottom">
-                        <h4>Videos</h4>
+                        <h4 data-key="documents-title2"></h4>
                     </div>
                     <ul class="list-unstyled components mb-5 py-3 px-3" id="videos-list">
                         <a href="#vStudents" data-toggle="collapse" aria-expanded="false"
-                           class="dropdown-toggle"><h5> Videos para estudiantes</h5></a>
+                           class="dropdown-toggle"><h5 data-key="documents-title3"></h5></a>
                         <ul class="collapse list-unstyled ml-2" id="vStudents">
                             <!-- Submission 1-->
-                            <li><a href="#" id="submission-ml">¿Cómo hacer un submission
-                                multilenguaje en UNCode?</a></li>
+                            <li><a data-key="documents-video-title1" href="#" id="submission-ml"></a></li>
                             <!-- Submission 2-->
-                            <li><a href="#" id="submission-nt">¿Cómo hacer la submission
-                                de un notebook en UNCode?</a></li>
+                            <li><a data-key="documents-video-title2" href="#" id="submission-nt"></a></li>
                             <!-- Custom input--->
-                            <li><a href="#" id="use-ci">¿Cómo usar custom input en
-                                UNCode?</a></li>
+                            <li><a data-key="documents-video-title3" href="#" id="use-ci"></a></li>
                             <!--Linter-->
-                            <li><a href="#" id="use-lt">¿Cómo usar el linter en
-                                UNCode?</a>
+                            <li><a data-key="documents-video-title4" href="#" id="use-lt"></a></li>
                                 <!--Python Tutor-->
-                            <li><a href="#" id="use-pyt">¿Cómo utilizar Python
-                                tutor en UNCode?</a></li>
+                            <li><a data-key="documents-video-title5" href="#" id="use-pyt"></a></li>
                             <!-- Subir Proyecto -->
-                            <li><a href="#" id="project-up">¿Cómo subir un proyecto a UNCode?</a></li>
+                            <li><a data-key="documents-video-title6" href="#" id="project-up"></a></li>
                         </ul>
                         <a href="#vProfessors" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
-                           class="docAux py-3 px-3"><h5>Videos para profesores</h5></a>
+                           class="docAux py-3 px-3"><h5 data-key="documents-title4"></h5></a>
                         <ul class="collapse list-unstyled ml-2" id="vProfessors">
                             <!-- Cómo Crear tarea en UNCode -->
                             <li>
-                                <a href="#" id="create-tr">¿Cómo crear una tarea en
-                                    UNCode?</a>
+                                <a data-key="documents-video-title7" href="#" id="create-tr"></a>
                             </li>
                             <!-- Crear notebooks -->
                             <li>
-                                <a href="#" id="create-nt">¿Cómo crear notebooks en UNCode?</a>
+                                <a data-key="documents-video-title8" href="#" id="create-nt"></a>
                             </li>
                             <!-- ¿Cómo usar el grader de los notebooks? -->
                             <li>
-                                <a href="#" id="use-nt">¿Cómo usar el grader de los notebooks? </a>
+                                <a data-key="documents-video-title9" href="#" id="use-nt"></a>
                             </li>
                             <!-- ¿Cómo crear un notebook de prueba para el grader de notebooks? -->
                             <li>
-                                <a href="#" id="create-nt-test">¿Cómo crear un notebook de prueba
-                                    para el grader de notebooks?</a>
+                                <a data-key="documents-video-title10" href="#" id="create-nt-test"></a>
                             </li>
                             <!-- ¿cómo crear una plantilla para un problema en UNCode? -->
                             <li>
-                                <a href="#" id="create-temp"> ¿Cómo crear una plantilla para un problema en UNCode? </a>
+                                <a data-key="documents-video-title11" href="#" id="create-temp"></a>
                             </li>
                             <!-- ¿cómo crear una tarea tipo proyecto  en UNCOde? -->
                             <li>
-                                <a href="#" id="create-proj"> ¿Cómo crear una tarea tipo proyecto en UNCode? </a>
+                                <a data-key="documents-video-title12" href="#" id="create-proj"></a>
                             </li>
                             <!-- ¿Cómo registrar estudiantes en un curso con un archivo .csv? -->
                             <li>
-                                <a href="#" id="reg-student"> ¿Cómo registrar estudiantes en un curso con un archivo
-                                    .csv? </a>
+                                <a data-key="documents-video-title13" href="#" id="reg-student"></a>
                             </li>
                         </ul>
                     </ul>

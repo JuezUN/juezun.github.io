@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNCode | Publicaciones</title>
+    <title data-key="publications-title1" ></title>
     <!-- Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -13,7 +13,8 @@
     <!--IonIcon-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+    <!--MDBootstrap-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
     <!--Favicon-->
     <link rel="icon" href="../assets/img/logo_simp.svg" type="image/svg+xml"/>
     <!--Style-->
@@ -22,6 +23,10 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="../assets/js/publications.js" type="module"></script>
     <script src="../assets/js/general.js" type="module"></script>
+    <script src="../assets/js/constants/i18n/publicationsMessages.js"></script>
+    <script src="../assets/js/constants/i18n/headerMessages.js"></script>
+    <script src="../assets/js/constants/i18n/footerMessages.js"></script>
+    <script src="../assets/js/languages.js"></script>
 </head>
 
 <body>
@@ -34,7 +39,7 @@
     <div class="container ">
         <div class="row title">
             <div class="col">
-                <h1 class="border-bottom py-4">Publicaciones</h1>
+                <h1 data-key="publications-header1" class="border-bottom py-4"></h1>
                 <ul class="list-group list-group-flush link-dark text-content title-content bg-light ">
                     <li class="list-group-item border-bottom bg-grey">
                         <h4 class="text-justify" id="paper-1" aria-controls="#abstract-1-content"
@@ -46,7 +51,7 @@
                             de Mallorca, Spain, 2nd-4th July 2018, pp. 6888-6898. doi:
                             10.21125/edulearn.2018.1632</h4>
                         <div class="collapse" id="abstract-1-content">
-                            <p lang="en" class="text-justify">This paper presents an educational environment to learn
+                            <p class="text-justify">This paper presents an educational environment to learn
                                 how to
                                 program computers
                                 which
@@ -75,7 +80,7 @@
                                 for several programming languages ​​including Java, Python, JavaScript and C/C++; a
                                 manual
                                 assessment module; and interactive statistical reports for students and teachers.</p>
-                            <p lang="en" class="text-justify">
+                            <p class="text-justify">
                                 The state of the art of tools to support the learning of computer programming is
                                 comprised
                                 of learning environments and automatic grading systems. The first group includes: basic
@@ -95,7 +100,7 @@
                                 learning
                                 environments.
                             </p>
-                            <p lang="en" class="text-justify">
+                            <p class="text-justify">
                                 In this context, the educational environment presented in this paper extends an
                                 automatic
                                 grading tool for computer programs with new functionalities that make it a truly support
@@ -103,15 +108,12 @@
                             </p>
                         </div>
                         <div>
-                            <a href="https://library.iated.org/view/RESTREPOCALLE2018UNC" target="_blank" class="py-3">Ir
-                                al
-                                documento</a>
-                            <a href="../assets/resources/UNCode-slides.pdf" download="UNCode-slides" class="px-3">Descargar
-                                presentación</a>
-                            <a onclick="toggleContent(this.id)" id="uncode-cite-1" type="button"
+                            <a data-key="publications-item-site" href="https://library.iated.org/view/RESTREPOCALLE2018UNC" target="_blank" class="py-3"></a>
+                            <a data-key="publications-item-download" href="../assets/resources/UNCode-slides.pdf" download="UNCode-slides" class="px-3"></a>
+                            <a data-key="publications-item-quote" onclick="toggleContent(this.id)" id="uncode-cite-1" type="button"
                                role="button"
                                class="link-style popovers " data-toggle="tooltip" data-placement="right"
-                               aria-controls="#uncode-cite-1-container">Cómo Citar</a>
+                               aria-controls="#uncode-cite-1-container"></a>
                         </div>
                         <div class="row px-4 collapse py-2" id="uncode-cite-1-container">
                             <p class="font-italic box-line p-1">
@@ -143,7 +145,7 @@
                             course supported by a software tool. Comput Appl Eng Educ. 2019; 27: 80– 89.
                             https://doi.org/10.1002/cae.22058</h4>
                         <div class="collapse" id="abstract-2-content">
-                            <p lang="en" class="text-justify">
+                            <p class="text-justify">
                                 This article presents a continuous assessment methodology for
                                 a computer
                                 programming
@@ -168,13 +170,12 @@
                                 course.</p>
                         </div>
                         <div>
-                            <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/cae.22058" target="_blank"
-                               class="py-3">Ir al
-                                documento</a>
-                            <a onclick="toggleContent(this.id)" id="uncode-cite-2" type="button"
+                            <a data-key="publications-item-site" href="https://onlinelibrary.wiley.com/doi/full/10.1002/cae.22058" target="_blank"
+                               class="py-3"></a>
+                            <a data-key="publications-item-quote" onclick="toggleContent(this.id)" id="uncode-cite-2" type="button"
                                role="button"
                                class="link-style popovers px-3" data-toggle="tooltip" data-placement="right"
-                               aria-controls="#uncode-cite-2-container">Cómo Citar</a>
+                               aria-controls="#uncode-cite-2-container"></a>
                         </div>
                         <div class="row px-4 collapse py-2" id="uncode-cite-2-container">
                             <p class="font-italic box-line p-1">
@@ -207,7 +208,7 @@
                             and Summative Evaluation in a Computer Programming Course: an Experience Report,” Glob.
                             J. Eng. Educ., vol. 22, no. 3, pp. 174–185, 2020.</h4>
                         <div class="collapse" id="abstract-3-content">
-                            <p lang="en" class="text-justify">
+                            <p class="text-justify">
                                 This article describes the use of an automatic tool that supports both formative and
                                 summative evaluation, in an introductory computer programming course. The aim was to
                                 test
@@ -237,12 +238,11 @@
                             </p>
                         </div>
                         <div>
-                            <a href="http://www.wiete.com.au/journals/GJEE/Publish/vol22no3/06-Echeverry-J.pdf" target="_blank" class="py-3">Ir al
-                                documento</a>
-                            <a onclick="toggleContent(this.id)" id="uncode-cite-3" type="button"
+                            <a data-key="publications-item-site" href="http://www.wiete.com.au/journals/GJEE/Publish/vol22no3/06-Echeverry-J.pdf" target="_blank" class="py-3"></a>
+                            <a data-key="publications-item-quote" onclick="toggleContent(this.id)" id="uncode-cite-3" type="button"
                                role="button"
                                class="link-style popovers px-3" data-toggle="tooltip" data-placement="right"
-                               aria-controls="#uncode-cite-3-container">Cómo Citar</a>
+                               aria-controls="#uncode-cite-3-container"></a>
                         </div>
                         <div class="row px-4 collapse py-2" id="uncode-cite-3-container">
                             <p class="font-italic box-line p-1">

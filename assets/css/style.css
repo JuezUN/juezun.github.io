@@ -187,3 +187,16 @@ a.disabled {
     color: var(--grey);
 }
 
+.dropdown-menu{
+    min-width: 4.5rem;
+}
+
+.dropdown li{
+    padding: 0 10px;
+    color: grey;
+}
+
+.dropdown li:hover{
+    cursor: pointer;
+    color: var(--dark);
+}

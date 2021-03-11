@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +12,8 @@
     <!--IonIcon-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--MDBootstrap-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
     <!--Favicon-->
     <link rel="icon" href="assets/img/logo_simp.svg" type="image/svg+xml"/>
     <!--Style-->
@@ -20,7 +21,11 @@
     <!--JS-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="assets/js/index.js" type="module"></script>
-
+    <!--Constants-->
+    <script src="assets/js/constants/i18n/indexMessages.js"></script>
+    <script src="assets/js/constants/i18n/headerMessages.js"></script>
+    <script src="assets/js/constants/i18n/footerMessages.js"></script>
+    <script src="assets/js/languages.js"></script>
 </head>
 
 <body>
@@ -33,28 +38,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 main-title">
-                <h1 class="mb-3 font-weight-bold"> UNCode: <br>
-                    Un entorno para el aprendizaje y evaluación automática de
-                    ejercicios de
-                    programación</h1>
-                <p>Desarrollado por el grupo de investigación <a class="link-anm"
-                                                                 href="http://plas.unal.edu.co/"
-                                                                 target="_blank">PLaS</a> de la <a
-                        class="link-anm"
-                        href="https://unal.edu.co/" target="_blank">Universidad
-                    Nacional de Colombia</a></p>
+                <h1 data-key="index-title1" class="mb-3 font-weight-bold"></h1>
+                <p data-key="index-description1"></p>
             </div>
             <div class="col-md-6 text-center mx-auto">
-                <a href="https://uncode.unal.edu.co/signin" target="_blank" class="btn btn-dark mr-2 mb-4">Ingresar</a>
-                <a href="https://uncode.unal.edu.co/register" target="_blank"
-                   class="btn btn-outline-light mr-2 n mb-4">Registrarse</a>
+                <a data-key="index-login" href="https://uncode.unal.edu.co/signin" target="_blank" class="btn btn-dark mr-2 mb-4"></a>
+                <a data-key="index-register" href="https://uncode.unal.edu.co/register" target="_blank"
+                   class="btn btn-outline-light mr-2 n mb-4"></a>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 mx-auto">
                             <img src="assets/img/EscudoUn.png" class="img-fluid rounded mx-auto d-block" alt="">
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -69,28 +65,24 @@
             <div class="row">
                 <div class="col-md mx-auto text-center">
                     <div class="container">
-                        <h2>Múltiples entornos de evaluación</h2>
-                        <p>Con UNCode puedes trabajar con múltiples lenguajes de programación
-                            como Python, Java, C y C++. También, utiliza lenguajes de descripción de hardware como VHDL
-                            y
-                            Verilog. Además, puedes desarrollar e interactuar con actividades propuestas en notebooks de
-                            Jupyter. </p></div>
+                        <h2 data-key="index-title2"></h2>
+                        <p data-key="index-description2"></p></div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <h4>Múltiples lenguajes de programación</h4>
+                    <h4 data-key="index-title3"></h4>
                     <div class="col-md-8 mx-auto">
                         <img src="assets/img/losgosLenguage.png" class="img-fluid rounded mx-auto d-block py-3">
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h4>Integración con notebooks</h4>
+                    <h4 data-key="index-title4"></h4>
                     <div class="col-md-8 mx-auto">
                         <img src="assets/img/Jupyter_logo.png" class="img-fluid rounded mx-auto d-block py-3"></div>
                 </div>
                 <div class="col-md-4">
-                    <h4>Lenguajes de Descripción de Hardware (HDL)</h4>
+                    <h4 data-key="index-title5"></h4>
                     <div class="col-md-8 mx-auto">
                         <img src="assets/img/VHDL.png" class="img-fluid rounded mx-auto d-block py-3">
                         <img src="assets/img/Verilog.png" class="img-fluid rounded mx-auto d-block py-3"></div>
@@ -101,12 +93,8 @@
         <!--C-rating system-->
         <div class="row py-3">
             <div class="col-md-6">
-                <h2>Sistema de calificación automática</h2>
-                <p class="text-justify">UNCode posee un sistema de calificación automática de tareas de programación
-                    basado en <a
-                            href="https://inginious.org/" target="_blank">INGInious</a>. Esto se hace de manera flexible,
-                    seguro, escalable y configurable para tus objetivos. Adicionalmente, feedback automático e inmediato
-                    es entregado a los estudiantes. </p>
+                <h2 data-key="index-title6"></h2>
+                <p data-key="index-description3" class="text-justify"></p>
             </div>
             <div class="col-md-6">
                 <div class="col-md-7 mx-auto">
@@ -116,20 +104,8 @@
         <!--Students' tools-->
         <div class="row py-3">
             <div class="col-md-6">
-                <h2>Herramientas para los estudiantes</h2>
-                <p class="text-justify">UNCode apoya el proceso de aprendizaje de los estudiantes mediante la evaluación
-                    automática con
-                    retroalimentación inmediata. La realimentación es sumativa y formativa. La parte sumativa se le
-                    informa a los estudiantes por medio de una calificación numérica. La realimentación formativa abarca
-                    varios aspectos de la programación, donde destaca la sintaxis, semántica, mantenimiento de código y
-                    realización de pruebas personalizadas. Para esto cuenta con un "<a
-                            href="https://en.wikipedia.org/wiki/Lint_(software)" target="_blank">linter</a>"
-                    para hacer recomendaciones de buenas prácticas, visualizador de código en ejecución en <a
-                            href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Python tutor</a>
-                    , entorno de
-                    pruebas de entrada y salida personalizables, plantillas de código para tareas de programación, entre
-                    otras.
-                </p>
+                <h2 data-key="index-title7"></h2>
+                <p data-key="index-description4" class="text-justify"></p>
             </div>
             <div class="col-md-6">
                 <div class="col-md-7 mx-auto">
@@ -140,10 +116,8 @@
         <!--monitoring tools-->
         <div class="row py-3">
             <div class="col-md-6">
-                <h2>Herramientas de monitoreo</h2>
-                <p class="text-justify">UNCode cuenta con un módulo generador de reportes estadísticos interactivos para
-                    estudiantes y
-                    profesores.</p>
+                <h2 data-key="index-title8"></h2>
+                <p data-key="index-description5" class="text-justify"></p>
             </div>
             <div class="col-md-6">
                 <div class="col-md-7 mx-auto">
@@ -154,10 +128,8 @@
         <!--Teachers' tools-->
         <div class="row py-3">
             <div class="col-md-6">
-                <h2>Herramientas para los profesores</h2>
-                <p class="text-justify">UNCode cuenta con un asistente para la creación fácil y automática de tareas,
-                    banco de problemas de
-                    programación, un módulo de evaluación manual, generador de reportes anti plagio, entre otras.</p>
+                <h2 data-key="index-title9"></h2>
+                <p data-key="index-description6" class="text-justify"></p>
             </div>
             <div class="col-md-6">
                 <div class="col-md-7 mx-auto">
