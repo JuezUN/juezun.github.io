@@ -12,7 +12,7 @@ const publicationsPageMessages = {
             'publications-header1': 'Publicaciones',
             'publications-item-site': 'Ir al documento',
             'publications-item-download': 'Descargar presentación',
-            'publications-item-quote': 'Cómo Citar'
+            'publications-item-quote': 'Cómo citar'
         }
     }
-}
+};

@@ -14,7 +14,7 @@ const repositoriesPageMessages = {
                                         'Bogotá campus, to evaluate the written code by the students in multiple programming ' +
                                         'languages such as C, C++, Java and Python 3; also, the UNCode judge can be used in hardware ' +
                                         'description languages such as VHDL and Verilog, or in Jupyter Notebooks tasks. ' +
-                                        'For that reason, UNCode has been used in different courses in the university: ' +
+                                        'For that reason, UNCode has been used in different courses at the university: ' +
                                         'Basic computer programming, Data structures, Machine learning, Programming languages, ' +
                                         'Quantum programming, among other courses and areas.',
             'repository1-description4': 'UNCode has a Backend that handles the interaction with Docker and ' +
@@ -55,22 +55,22 @@ const repositoriesPageMessages = {
                                         '"bears" that cover 54 languages. Coala allows the creation of standards and ' +
                                         'rules to be followed in the code development, which allows to do a "linting" ' +
                                         'process (detect and marking programming errors), and some fixes to the code ' +
-                                        'acording to the source code with these parameters. There is a <a href="https://github.com/coala/bear-docs/" target="_blank"> general list </a> ' +
+                                        'according to the source code with these parameters. There is a <a href="https://github.com/coala/bear-docs/" target="_blank"> general list </a> ' +
                                         'that contains information about each "bear", such as the supported languages, ' +
                                         'and the fixes that can be made to the code.',
             'repository7-description1': 'In this repository you can find different tests like load testing to apply on UNCode.',
             'repository7-description2': 'From these tests we have <em>load testing</em>. ' +
                                         'This test is a visualization and a measuring of the server behavior when many users ' +
                                         'are trying to use UNCode at the same time. This can include log in, go to the task page ' +
-                                        'and submitting. This test is done with <b>JMeter</b>, testing different workflows such ' +
+                                        'and submitting. This test is done with <b>JMeter</b>, testing different workflow such ' +
                                         'as the performance or notebooks submissions.',
-            'repository8-description1': 'This repository contains the backend of C / C++ for ' +
+            'repository8-description1': 'This repository contains the backend of C/C++ for ' +
                                         '<a href="https://github.com/JuezUN/OnlinePythonTutor" target="_blank">Online Python ' +
                                         'Tutor</a>. We have made a <em>fork</em> to this repository to add some necessary ' +
                                         'modifications for our purposes, and provide the "Python tutor" service properly.',
             'repository8-description2': 'The container is stored on Docker Hub: ' +
                                         '<a href="https://hub.docker.com/r/unjudge/opt-cpp-backend" target="_blank">unjudge/opt-cpp-backend</a>, ' +
-                                        'which at the same time is used by a Linux service called <em>Cokapi</em>. ',
+                                        'which at the same time is used by a Linux service called <em>Cokapi</em>.',
             'repository-button': 'Repository'
         },
         'es': {
@@ -102,7 +102,7 @@ const repositoriesPageMessages = {
                                         'evaluador externo para LMS (Learning Managment Systems), como Moodle u OpenEDX.',
             'repository2-description1': 'Este repositorio contiene los scripts necesarios para efectuar el despliegue automático ' +
                                         'de UNCode junto a todas sus características.',
-            'repository3-description1': 'Este repositorio contiene los contenedores utilizados para la  ejecución y evaluación de ' +
+            'repository3-description1': 'Este repositorio contiene los contenedores utilizados para la ejecución y evaluación de ' +
                                         'código de UNCode disponibles en <a href="https://hub.docker.com/u/unjudge" target="_blank">Docker Hub.</a>',
             'repository3-description2': 'No todos los contenedores son usados en UNCode, ya que parte de estos se destina para ' +
                                         '<a href="https://github.com/UCL-INGI/INGInious-containers" target="_blank">INGInious-containers</a>. ' +
@@ -146,4 +146,4 @@ const repositoriesPageMessages = {
             'repository-button': 'Repositorio'
         }
     }
-}
+};

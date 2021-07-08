@@ -11,4 +11,4 @@ const footerPageMessages = {
             'footer-item3': 'Contribuidores'
         }
     }
-}
+};
