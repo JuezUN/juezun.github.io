@@ -51,4 +51,4 @@ const documentationPageMessages = {
             'documents-video-title13': '¿Cómo registrar estudiantes en un curso con un archivo .csv?'
         }
     }
-}
+};
