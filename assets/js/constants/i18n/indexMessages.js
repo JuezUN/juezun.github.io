@@ -11,7 +11,7 @@ const indexPageMessages = {
             'index-description2': 'You can work on UNCode with multiple programming ' +
                 'languages such as Python, Java, C and C++. Also, ' +
                 'you can use hardware description languages like ' +
-                'Verilog and VHDL, and do suggested activities in ' +
+                'Verilog and VHDL. Additionally, you are able to interact and solve tasks using ' +
                 'Jupyter notebooks.',
             'index-title3': 'Multiple programming languages',
             'index-title4': 'Jupyter Notebooks automatic grading',
