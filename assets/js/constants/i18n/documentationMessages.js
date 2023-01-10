@@ -24,7 +24,7 @@ const documentationPageMessages = {
             'documents-video-title11': 'How to create a code template for a task?',
             'documents-video-title12': 'How to create a code file project task?',
             'documents-video-title13': 'How to register students in a course using a .csv file?',
-            'documents-video-title14': 'How to do a HDL submission on UNCode?',
+            'documents-video-title14': 'How to do an HDL submission on UNCode?',
             'documents-video-title15': 'How to create a new HDL task on UNCode?'
         },
         'es': {
