@@ -23,7 +23,9 @@ const documentationPageMessages = {
             'documents-video-title10': 'How to create a test notebook for the notebook\'s grader?',
             'documents-video-title11': 'How to create a code template for a task?',
             'documents-video-title12': 'How to create a code file project task?',
-            'documents-video-title13': 'How to register students in a course using a .csv file?'
+            'documents-video-title13': 'How to register students in a course using a .csv file?',
+            'documents-video-title14': 'How to do an HDL submission on UNCode?',
+            'documents-video-title15': 'How to create a new HDL task on UNCode?'
         },
         'es': {
             'documents-title1': 'UNCode | Documentación',
@@ -48,7 +50,9 @@ const documentationPageMessages = {
             'documents-video-title10': '¿Cómo crear un notebook de prueba para el grader de notebooks?',
             'documents-video-title11': '¿Cómo crear una plantilla de código para una tarea en UNCode?',
             'documents-video-title12': '¿Cómo crear una tarea tipo proyecto en UNCode?',
-            'documents-video-title13': '¿Cómo registrar estudiantes en un curso con un archivo .csv?'
+            'documents-video-title13': '¿Cómo registrar estudiantes en un curso con un archivo .csv?',
+            'documents-video-title14': '¿Cómo hacer un submission HDL en UNCode?',
+            'documents-video-title15': '¿Cómo crear una tarea HDL en UNCode?',
         }
     }
 };
