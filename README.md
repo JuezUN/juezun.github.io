@@ -16,7 +16,7 @@ This repository contains all the code to generate the UNCode's web page, which c
 
 ## Roadmap
 
-See the [UNCode GitHub Project](https://github.com/orgs/JuezUN/projects/3) for a list of proposed features, known issues and how they are being tackled.
+See the [UNCode GitHub Project](https://github.com/JuezUN/INGInious/issues) for a list of proposed features, known issues and how they are being tackled.
 
 ## Contributing
 
