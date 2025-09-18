@@ -25,7 +25,11 @@ const documentationPageMessages = {
             'documents-video-title12': 'How to create a code file project task?',
             'documents-video-title13': 'How to register students in a course using a .csv file?',
             'documents-video-title14': 'How to do an HDL submission on UNCode?',
-            'documents-video-title15': 'How to create a new HDL task on UNCode?'
+            'documents-video-title15': 'How to create a new HDL task on UNCode?',
+            'documents-video-title16': 'How to create a new client/external grader task on UNCode? 1/4',
+            'documents-video-title17': 'How to create a new client/external grader task on UNCode? 2/4',
+            'documents-video-title18': 'How to create a new client/external grader task on UNCode? 3/4',
+            'documents-video-title19': 'How to create a new client/external grader task on UNCode? 4/4'
         },
         'es': {
             'documents-title1': 'UNCode | Documentación',
@@ -53,6 +57,10 @@ const documentationPageMessages = {
             'documents-video-title13': '¿Cómo registrar estudiantes en un curso con un archivo .csv?',
             'documents-video-title14': '¿Cómo hacer un submission HDL en UNCode?',
             'documents-video-title15': '¿Cómo crear una tarea HDL en UNCode?',
+            'documents-video-title16': '¿Cómo crear una tarea de client/external grader en UNCode? 1/4',
+            'documents-video-title17': '¿Cómo crear una tarea de client/external grader en UNCode? 2/4',
+            'documents-video-title18': '¿Cómo crear una tarea de client/external grader en UNCode? 3/4',
+            'documents-video-title19': '¿Cómo crear una tarea de client/external grader en UNCode? 4/4'
         }
     }
 };
